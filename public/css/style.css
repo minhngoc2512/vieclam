@@ -96,7 +96,7 @@ body{
 .img-content-top{
 	line-height: 14px;
 	font-size: 14px;
-	font-style: bold;
+	font-weight: bold;
 	margin-bottom: 10px;
 }
 .title-content-top{
@@ -137,6 +137,7 @@ body{
 .content-middle-title{
 	font-size: 24px;
 	font-weight: bold;
+	line-height: 30px;
 }
 .mo-ta-cv{
 	margin-top:10px;
@@ -224,19 +225,18 @@ body{
 	background-color: #ffffff;
 	width: 100%;
 	height: auto;
-	/*display: table;*/
+	display: table;
 }
 .form-select-company{
 	width: auto;
 	border: 1px solid #0e9bd6;
 	border-radius: 5px;
-	float: left;
+	/*float: left;*/
 	color:#0e9bd6;
 	background-color: inherit;
 	font-size: 14px;
 }
 .content-company-middle div div span{
-	float: left;
 	font-size:16px;
 	margin: 0 10px 0 0;
 	font-family: Arial;
@@ -392,6 +392,7 @@ body{
 }
 .text-14{
 	font-size: 14px;
+	line-height: 20px;
 }
 .padding-bottom-content{
 	margin-bottom: 20px;
@@ -408,5 +409,47 @@ body{
 }
 .text-company-parent .text-company{
 	line-height: 25px;
+}
+#key-search{
+	background: url(../image/Search.png) #fff no-repeat;
+	background-size: 13px 20px !important;
+	background-position: 12px 50%;
+	padding-left: 40px;
+}
+#location-search{
+	background: url(../image/Dia_Diem.png) #fff no-repeat;
+	background-size: 13px 20px !important;
+	background-position: 12px 50%;
+	padding-left: 40px;
+}
+#saraly-search{
+	background: url(../image/Luong.png) #fff no-repeat;
+	background-size: 13px 20px !important;
+	background-position: 12px 50%;
+	padding-left: 40px;
+}
+.text-line-height{
+	line-height: 24px;
+}
+.text-line-height-2{
 
+}
+
+@media(max-width: 989px){
+	.img-content-top {
+		width: 43%;
+		height: auto;
+	}
+	.content-button {
+		text-align: center;
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-top: 20px;
+	}
+	.title-content-top {
+		text-align: center;
+	}
+	.text-company-parent{
+		text-align: center;
+	}
 }

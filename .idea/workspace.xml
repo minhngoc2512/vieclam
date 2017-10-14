@@ -2,101 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="813fb219-ad8d-4456-96e0-df4d82dfaf55" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/vendors/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/List-Email-mời-đăng-tin-đợt-3-T10.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/404.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/500.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/BG_KCN.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/BackLink_140x110.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Background-QC.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Banner_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/CHplay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Deadline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Dia_Diem.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Itunes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/LOGO-Menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/List Email mời đăng tin Tháng 9.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/List Email mời đăng tin đợt 3 T10.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/List Email mời đăng tin đợt 4 T10.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Local.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Luong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Mock_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Money.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/So_Luong.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Tìm kiếm - Lọc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/about-us.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/advertise-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog-img-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog-img-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog-img-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog-img-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog-img-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-3docean.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-at-and-t.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-codecynon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-google.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-graphicriver.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-hp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-infosys.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-photodune.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-tata.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-themeforest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-videohive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cp-charles-white.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cp-john-doe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cp-patty-white.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cp-steven-lewis.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cp-susan-chan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/footer-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/job-list-logo-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/job-list-logo-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/job-list-logo-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/job-list-logo-04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/job-list-logo-05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/job-list-logo-06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/job-list-logo-07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/job-list-logo-08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/kevin-bekar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/michel-brown.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/susan-taylor.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/team-work.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/user-wall-pic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/Banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/Logo_Footer_190x130.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/app.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/application.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/category.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/custom_index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/customize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/layout.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/mixins.less " />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/responsive.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/search.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/vendors/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/vendors/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/vendors/slick-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/vendors/slick.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/vendors/summernote.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/.~lock.List Email mời đăng tin Tháng 9.xlsx#" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/.~lock.List Email mời đăng tin đợt 3 T10.xlsx#" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/.~lock.List Email mời đăng tin đợt 4 T10.xlsx#" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendors/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendors/jquery.countdown.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendors/less.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendors/slick.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendors/summernote.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/app.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/category.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/custom_index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/customize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/layout.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/mixins.less " afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/responsive.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/search.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/vendors/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/vendors/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/vendors/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/vendors/slick-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/vendors/slick.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/vendors/summernote.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/List-Email-mời-đăng-tin-đợt-3-T10.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/.~lock.List Email mời đăng tin Tháng 9.xlsx#" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/.~lock.List Email mời đăng tin đợt 3 T10.xlsx#" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/.~lock.List Email mời đăng tin đợt 4 T10.xlsx#" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/404.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/BG_KCN.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/BackLink_140x110.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Background-QC.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Banner_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/CHplay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Deadline.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Dia_Diem.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Itunes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/LOGO-Menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/List Email mời đăng tin Tháng 9.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/List Email mời đăng tin đợt 3 T10.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/List Email mời đăng tin đợt 4 T10.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Local.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Luong.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Mock_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Money.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/So_Luong.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Tìm kiếm - Lọc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/about-us.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/advertise-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog-img-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog-img-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog-img-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog-img-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog-img-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-3docean.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-at-and-t.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-codecynon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-google.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-graphicriver.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-hp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-infosys.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-photodune.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-tata.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-themeforest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-videohive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cp-charles-white.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cp-john-doe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cp-patty-white.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cp-steven-lewis.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cp-susan-chan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/footer-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/job-list-logo-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/job-list-logo-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/job-list-logo-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/job-list-logo-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/job-list-logo-05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/job-list-logo-06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/job-list-logo-07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/job-list-logo-08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/kevin-bekar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/michel-brown.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/susan-taylor.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/team-work.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/user-wall-pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendors/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendors/jquery.countdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendors/less.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendors/slick.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendors/summernote.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company.html" afterPath="$PROJECT_DIR$/company.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,14 +105,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="168" column="18" lean-forward="true" selection-start-line="168" selection-start-column="18" selection-end-line="168" selection-end-column="18" />
+            <state relative-caret-position="405">
+              <caret line="548" column="0" lean-forward="true" selection-start-line="548" selection-start-column="0" selection-end-line="548" selection-end-column="0" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -123,15 +127,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="company.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="company.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/company.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="665" column="34" lean-forward="false" selection-start-line="665" selection-start-column="20" selection-end-line="665" selection-end-column="34" />
+            <state relative-caret-position="578">
+              <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#8;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -142,24 +163,10 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="274" column="6" lean-forward="true" selection-start-line="274" selection-start-column="6" selection-end-line="274" selection-end-column="6" />
+            <state relative-caret-position="331">
+              <caret line="398" column="1" lean-forward="true" selection-start-line="398" selection-start-column="1" selection-end-line="398" selection-end-column="1" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Banner_01.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/Banner_01.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Banner.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/Banner.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -181,7 +188,6 @@
       <find>job-comapany-add</find>
       <find>job-company-add</find>
       <find>job-comap</find>
-      <find>job-company-saraly</find>
       <find>id=&quot;job-comapany-add&quot;</find>
       <find>id=&quot;job-company-saraly&quot;</find>
       <find>id=&quot;mo-ta-cv&quot;</find>
@@ -194,6 +200,8 @@
       <find>content-topa</find>
       <find>content-company-middle</find>
       <find>content-footer</find>
+      <find>job-company-saraly</find>
+      <find>text-14</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -203,9 +211,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/application.css" />
-        <option value="$PROJECT_DIR$/company.html" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/company.html" />
       </list>
     </option>
   </component>
@@ -216,11 +224,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
-    <option name="y" value="60" />
-    <option name="width" value="1353" />
-    <option name="height" value="803" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="275" />
+    <option name="y" value="-4" />
+    <option name="width" value="924" />
+    <option name="height" value="831" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -238,7 +246,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,37 +257,26 @@
             <path>
               <item name="vieclam" type="b2602c69:ProjectViewProjectNode" />
               <item name="vieclam" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vieclam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vieclam" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="vieclam" type="b2602c69:ProjectViewProjectNode" />
               <item name="vieclam" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="vieclam" type="b2602c69:ProjectViewProjectNode" />
               <item name="vieclam" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bootstrap.css" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="vieclam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vieclam" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendors" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,16 +315,17 @@
       <updated>1507859238551</updated>
       <workItem from="1507859246507" duration="26855000" />
       <workItem from="1507943101687" duration="15299000" />
+      <workItem from="1507974017797" duration="5004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42154000" />
+    <option name="totallyTimeSpent" value="47158000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="60" width="1353" height="803" extended-state="0" />
+    <frame x="45" y="-4" width="1395" height="904" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1537873" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15122312" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -359,11 +357,87 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11970">
+          <caret line="665" column="34" lean-forward="false" selection-start-line="665" selection-start-column="20" selection-end-line="665" selection-end-column="34" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4932">
+          <caret line="274" column="6" lean-forward="true" selection-start-line="274" selection-start-column="6" selection-end-line="274" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Banner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Banner_01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2376">
           <caret line="284" column="18" lean-forward="false" selection-start-line="284" selection-start-column="18" selection-end-line="284" selection-end-column="18" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -376,8 +450,25 @@
           <caret line="203" column="6" lean-forward="true" selection-start-line="203" selection-start-column="6" selection-end-line="203" selection-end-column="6" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -442,35 +533,59 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="665" column="34" lean-forward="false" selection-start-line="665" selection-start-column="20" selection-end-line="665" selection-end-column="34" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="274" column="6" lean-forward="true" selection-start-line="274" selection-start-column="6" selection-end-line="274" selection-end-column="6" />
+        <state relative-caret-position="331">
+          <caret line="398" column="1" lean-forward="true" selection-start-line="398" selection-start-column="1" selection-end-line="398" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="168" column="18" lean-forward="true" selection-start-line="168" selection-start-column="18" selection-end-line="168" selection-end-column="18" />
+        <state relative-caret-position="405">
+          <caret line="548" column="0" lean-forward="true" selection-start-line="548" selection-start-column="0" selection-end-line="548" selection-end-column="0" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>

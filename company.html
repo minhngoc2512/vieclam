@@ -21,15 +21,15 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- Font Awesome for icon fonts -->
-    <link href="./css/vendors/font-awesome.min.css" rel="stylesheet">
+    <link href="./public/css/vendors/font-awesome.min.css" rel="stylesheet">
     <!-- Google Font API for Lato and Montserrat font families -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:400,700" rel="stylesheet">
     <!-- CSS for slick slider plugin -->
-    <link href="./css/vendors/slick.css" rel="stylesheet">
-    <link href="./css/vendors/slick-theme.css" rel="stylesheet">
+    <link href="./public/css/vendors/slick.css" rel="stylesheet">
+    <link href="./public/css/vendors/slick-theme.css" rel="stylesheet">
     <!-- Main Custom LESS file -->
-    <link href="./css/application.css?v=1.2" rel="stylesheet"/>
-    <link href="./css/custom_index.css?v=1.5" rel="stylesheet"/>
+    <link href="./public/css/application.css?v=1.2" rel="stylesheet"/>
+    <link href="./public/css/custom_index.css?v=1.5" rel="stylesheet"/>
     <link rel="stylesheet" href="./public/css/style.css">
 </head>
 <body>
@@ -145,10 +145,10 @@
                 <!-- JOB SEARCH FORM STARTS -->
                 <form class="form-inline">
                     <div class="form-group keyword">
-                        <input type="text" class="form-control keyword_carrer" placeholder="Ngành nghề, từ khóa...">
+                        <input type="text" class="form-control" id="key-search" placeholder="Ngành nghề, từ khóa...">
                     </div>
                     <div class="form-group keyword">
-                        <select data-placeholder="Địa điểm" class="chosen-select form-control province_search"
+                        <select data-placeholder="Địa điểm" class="chosen-select form-control" id="location-search"
                                 tabindex="5"
                                 name="province">
                             <option selected="">Địa điểm</option>
@@ -158,7 +158,7 @@
                     </div>
                     <div class="form-group keyword search_province">
 
-                        <select data-placeholder="Mức lương khởi điểm" class="chosen-select form-control salary_search"
+                        <select data-placeholder="Mức lương khởi điểm" class="chosen-select form-control" id="saraly-search"
                                 tabindex="5"
                                 name="salary">
                             <option selected="">Mức lương</option>
@@ -235,10 +235,10 @@
                         <div class="job-detail-2 float-left">
                             <p>Công ty TNHH MTV tuyển nhân viên</p>
                             <div class="detail-job float-left">
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/So_Luong.jpg"></i>Số lượng: 10<br>
                                 </div>
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/Dia_Diem.png"></i>Địa chỉ:<a
                                         class="job-company-add"> Đồng
                                     Nai</a>
@@ -247,14 +247,13 @@
 
                             <div class="detail-job float-left">
                                 <div class="full-width">
-                                    <div class="job-company-saraly"><i> <img class="icon-job"
-                                                                             src="./public/image/Luong.png"></i>Mức
+                                    <div class="full-width "><i> <img class="icon-job" src="./public/image/Luong.png"></i>Mức
                                         Lương:
-                                        10tr - 15tr VNĐ
+                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
                                     </div>
 
                                 </div>
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/Deadline.png"></i>Hạn Nộp Hồ Sơ:
                                     10/10/2020
                                 </div>
@@ -274,10 +273,10 @@
                         <div class="job-detail-2 float-left">
                             <p>Công ty TNHH MTV tuyển nhân viên</p>
                             <div class="detail-job float-left">
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/So_Luong.jpg"></i>Số lượng: 10<br>
                                 </div>
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/Dia_Diem.png"></i>Địa chỉ:<a
                                         class="job-company-add"> Đồng
                                     Nai</a>
@@ -286,14 +285,13 @@
 
                             <div class="detail-job float-left">
                                 <div class="full-width">
-                                    <div class="job-company-saraly"><i> <img class="icon-job"
-                                                                             src="./public/image/Luong.png"></i>Mức
+                                    <div class="full-width "><i> <img class="icon-job" src="./public/image/Luong.png"></i>Mức
                                         Lương:
-                                        10tr - 15tr VNĐ
+                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
                                     </div>
 
                                 </div>
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/Deadline.png"></i>Hạn Nộp Hồ Sơ:
                                     10/10/2020
                                 </div>
@@ -313,10 +311,10 @@
                         <div class="job-detail-2 float-left">
                             <p>Công ty TNHH MTV tuyển nhân viên</p>
                             <div class="detail-job float-left">
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/So_Luong.jpg"></i>Số lượng: 10<br>
                                 </div>
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/Dia_Diem.png"></i>Địa chỉ:<a
                                         class="job-company-add"> Đồng
                                     Nai</a>
@@ -325,14 +323,13 @@
 
                             <div class="detail-job float-left">
                                 <div class="full-width">
-                                    <div class="job-company-saraly"><i> <img class="icon-job"
-                                                                             src="./public/image/Luong.png"></i>Mức
+                                    <div class="full-width "><i> <img class="icon-job" src="./public/image/Luong.png"></i>Mức
                                         Lương:
-                                        10tr - 15tr VNĐ
+                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
                                     </div>
 
                                 </div>
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/Deadline.png"></i>Hạn Nộp Hồ Sơ:
                                     10/10/2020
                                 </div>
@@ -352,10 +349,10 @@
                         <div class="job-detail-2 float-left">
                             <p>Công ty TNHH MTV tuyển nhân viên</p>
                             <div class="detail-job float-left">
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/So_Luong.jpg"></i>Số lượng: 10<br>
                                 </div>
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/Dia_Diem.png"></i>Địa chỉ:<a
                                         class="job-company-add"> Đồng
                                     Nai</a>
@@ -364,14 +361,13 @@
 
                             <div class="detail-job float-left">
                                 <div class="full-width">
-                                    <div class="job-company-saraly"><i> <img class="icon-job"
-                                                                             src="./public/image/Luong.png"></i>Mức
+                                    <div class="full-width "><i> <img class="icon-job" src="./public/image/Luong.png"></i>Mức
                                         Lương:
-                                        10tr - 15tr VNĐ
+                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
                                     </div>
 
                                 </div>
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/Deadline.png"></i>Hạn Nộp Hồ Sơ:
                                     10/10/2020
                                 </div>
@@ -391,10 +387,10 @@
                         <div class="job-detail-2 float-left">
                             <p>Công ty TNHH MTV tuyển nhân viên</p>
                             <div class="detail-job float-left">
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/So_Luong.jpg"></i>Số lượng: 10<br>
                                 </div>
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/Dia_Diem.png"></i>Địa chỉ:<a
                                         class="job-company-add"> Đồng
                                     Nai</a>
@@ -403,14 +399,13 @@
 
                             <div class="detail-job float-left">
                                 <div class="full-width">
-                                    <div class="job-company-saraly"><i> <img class="icon-job"
-                                                                             src="./public/image/Luong.png"></i>Mức
+                                    <div class="full-width "><i> <img class="icon-job" src="./public/image/Luong.png"></i>Mức
                                         Lương:
-                                        10tr - 15tr VNĐ
+                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
                                     </div>
 
                                 </div>
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/Deadline.png"></i>Hạn Nộp Hồ Sơ:
                                     10/10/2020
                                 </div>
@@ -430,10 +425,10 @@
                         <div class="job-detail-2 float-left">
                             <p>Công ty TNHH MTV tuyển nhân viên</p>
                             <div class="detail-job float-left">
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/So_Luong.jpg"></i>Số lượng: 10<br>
                                 </div>
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/Dia_Diem.png"></i>Địa chỉ:<a
                                         class="job-company-add"> Đồng
                                     Nai</a>
@@ -442,14 +437,13 @@
 
                             <div class="detail-job float-left">
                                 <div class="full-width">
-                                    <div class="job-company-saraly"><i> <img class="icon-job"
-                                                                             src="./public/image/Luong.png"></i>Mức
+                                    <div class="full-width "><i> <img class="icon-job" src="./public/image/Luong.png"></i>Mức
                                         Lương:
-                                        10tr - 15tr VNĐ
+                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
                                     </div>
 
                                 </div>
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/Deadline.png"></i>Hạn Nộp Hồ Sơ:
                                     10/10/2020
                                 </div>
@@ -469,10 +463,10 @@
                         <div class="job-detail-2 float-left">
                             <p>Công ty TNHH MTV tuyển nhân viên</p>
                             <div class="detail-job float-left">
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/So_Luong.jpg"></i>Số lượng: 10<br>
                                 </div>
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/Dia_Diem.png"></i>Địa chỉ:<a
                                         class="job-company-add"> Đồng
                                     Nai</a>
@@ -481,14 +475,13 @@
 
                             <div class="detail-job float-left">
                                 <div class="full-width">
-                                    <div class="job-company-saraly"><i> <img class="icon-job"
-                                                                             src="./public/image/Luong.png"></i>Mức
+                                    <div class="full-width "><i> <img class="icon-job" src="./public/image/Luong.png"></i>Mức
                                         Lương:
-                                        10tr - 15tr VNĐ
+                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
                                     </div>
 
                                 </div>
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/Deadline.png"></i>Hạn Nộp Hồ Sơ:
                                     10/10/2020
                                 </div>
@@ -508,10 +501,10 @@
                         <div class="job-detail-2 float-left">
                             <p>Công ty TNHH MTV tuyển nhân viên</p>
                             <div class="detail-job float-left">
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/So_Luong.jpg"></i>Số lượng: 10<br>
                                 </div>
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/Dia_Diem.png"></i>Địa chỉ:<a
                                         class="job-company-add"> Đồng
                                     Nai</a>
@@ -520,14 +513,13 @@
 
                             <div class="detail-job float-left">
                                 <div class="full-width">
-                                    <div class="job-company-saraly"><i> <img class="icon-job"
-                                                                             src="./public/image/Luong.png"></i>Mức
+                                    <div class="full-width "><i> <img class="icon-job" src="./public/image/Luong.png"></i>Mức
                                         Lương:
-                                        10tr - 15tr VNĐ
+                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
                                     </div>
 
                                 </div>
-                                <div class="full-width">
+                                <div class="full-width ">
                                     <i><img class="icon-job" src="./public/image/Deadline.png"></i>Hạn Nộp Hồ Sơ:
                                     10/10/2020
                                 </div>
@@ -538,84 +530,8 @@
                     </div>
 
                 </div>
-                <div class="job-company-1">
-                    <div>
-                        <div class="float-left">
-                            <img class="img-content-middle" src="./public/image/bdqt-1-2.png">
-                        </div>
 
-                        <div class="job-detail-2 float-left">
-                            <p>Công ty TNHH MTV tuyển nhân viên</p>
-                            <div class="detail-job float-left">
-                                <div class="full-width">
-                                    <i><img class="icon-job" src="./public/image/So_Luong.jpg"></i>Số lượng: 10<br>
-                                </div>
-                                <div class="full-width">
-                                    <i><img class="icon-job" src="./public/image/Dia_Diem.png"></i>Địa chỉ:<a
-                                        class="job-company-add"> Đồng
-                                    Nai</a>
-                                </div>
-                            </div>
 
-                            <div class="detail-job float-left">
-                                <div class="full-width">
-                                    <div class="job-company-saraly"><i> <img class="icon-job"
-                                                                             src="./public/image/Luong.png"></i>Mức
-                                        Lương:
-                                        10tr - 15tr VNĐ
-                                    </div>
-
-                                </div>
-                                <div class="full-width">
-                                    <i><img class="icon-job" src="./public/image/Deadline.png"></i>Hạn Nộp Hồ Sơ:
-                                    10/10/2020
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-                <div class="job-company-1">
-                    <div>
-                        <div class="float-left">
-                            <img class="img-content-middle" src="./public/image/bdqt-1-2.png">
-                        </div>
-
-                        <div class="job-detail-2 float-left">
-                            <p>Công ty TNHH MTV tuyển nhân viên</p>
-                            <div class="detail-job float-left">
-                                <div class="full-width">
-                                    <i><img class="icon-job" src="./public/image/So_Luong.jpg"></i>Số lượng: 10<br>
-                                </div>
-                                <div class="full-width">
-                                    <i><img class="icon-job" src="./public/image/Dia_Diem.png"></i>Địa chỉ:<a
-                                        class="job-company-add"> Đồng
-                                    Nai</a>
-                                </div>
-                            </div>
-
-                            <div class="detail-job float-left">
-                                <div class="full-width">
-                                    <div class="job-company-saraly"><i> <img class="icon-job"
-                                                                             src="./public/image/Luong.png"></i>Mức
-                                        Lương:
-                                        10tr - 15tr VNĐ
-                                    </div>
-
-                                </div>
-                                <div class="full-width">
-                                    <i><img class="icon-job" src="./public/image/Deadline.png"></i>Hạn Nộp Hồ Sơ:
-                                    10/10/2020
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
 
 
                 <div class="line-border"></div>
@@ -661,8 +577,6 @@
     </div>
 
     <div class="row">
-
-
         <div class="content-footer col-md-12">
             <div class="full-width">
                 <p id="mo-ta-cv">
@@ -683,10 +597,10 @@
 
                         <p>Công ty TNHH MTV tuyển nhân viên</p>
                         <div class="detail-job-2 float-left">
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/So_Luong.jpg"></i>Số lượng: 10<br>
                             </div>
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/Dia_Diem.png"></i>Địa chỉ:<a
                                     class="job-company-add"> Đồng
                                 Nai</a>
@@ -694,12 +608,11 @@
                         </div>
 
                         <div class="detail-job-2 float-left">
-                            <div class="full-width">
-                                <i class="float-left"><img class="icon-job" src="./public/image/Luong.png"></i><span
-                                    class="float-left" class="job-company-saraly">Mức Lương: 10tr - 15tr VNĐ</span>
-
+                            <div class="text-line-height"><i> <img class="icon-job" src="./public/image/Luong.png"></i>Mức
+                                Lương:
+                                <span class="job-company-saraly">10tr - 15tr VNĐ</span>
                             </div>
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/Deadline.png"></i>Hạn Nộp Hồ Sơ: 10/10/2020
                             </div>
 
@@ -719,10 +632,10 @@
 
                         <p>Công ty TNHH MTV tuyển nhân viên</p>
                         <div class="detail-job-2 float-left">
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/So_Luong.jpg"></i>Số lượng: 10<br>
                             </div>
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/Dia_Diem.png"></i>Địa chỉ:<a
                                     class="job-company-add"> Đồng
                                 Nai</a>
@@ -730,13 +643,11 @@
                         </div>
 
                         <div class="detail-job-2 float-left">
-                            <div class="full-width">
-                                <i class="float-left"><img class="icon-job" src="./public/image/Luong.png"></i><span
-                                    class="float-left"
-                                    class="job-company-saraly">Mức Lương: 10tr - 15tr VNĐ</span>
-
+                            <div class="text-line-height"><i> <img class="icon-job" src="./public/image/Luong.png"></i>Mức
+                                Lương:
+                                <span class="job-company-saraly">10tr - 15tr VNĐ</span>
                             </div>
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/Deadline.png"></i>Hạn Nộp Hồ Sơ: 10/10/2020
                             </div>
 
@@ -756,10 +667,10 @@
 
                         <p>Công ty TNHH MTV tuyển nhân viên</p>
                         <div class="detail-job-2 float-left">
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/So_Luong.jpg"></i>Số lượng: 10<br>
                             </div>
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/Dia_Diem.png"></i>Địa chỉ:<a
                                     class="job-company-add"> Đồng
                                 Nai</a>
@@ -767,13 +678,11 @@
                         </div>
 
                         <div class="detail-job-2 float-left">
-                            <div class="full-width">
-                                <i class="float-left"><img class="icon-job" src="./public/image/Luong.png"></i><span
-                                    class="float-left"
-                                    class="job-company-saraly">Mức Lương: 10tr - 15tr VNĐ</span>
-
+                            <div class="text-line-height"><i> <img class="icon-job" src="./public/image/Luong.png"></i>Mức
+                                Lương:
+                                <span class="job-company-saraly">10tr - 15tr VNĐ</span>
                             </div>
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/Deadline.png"></i>Hạn Nộp Hồ Sơ: 10/10/2020
                             </div>
 
@@ -782,13 +691,10 @@
                     </div>
 
                 </div>
-
-
             </div>
 
 
             <div class="col-md-6">
-
                 <div class="job-detail-3">
 
 
@@ -800,10 +706,10 @@
 
                         <p>Công ty TNHH MTV tuyển nhân viên</p>
                         <div class="detail-job-2 float-left">
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/So_Luong.jpg"></i>Số lượng: 10<br>
                             </div>
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/Dia_Diem.png"></i>Địa chỉ:<a
                                     class="job-company-add"> Đồng
                                 Nai</a>
@@ -811,13 +717,11 @@
                         </div>
 
                         <div class="detail-job-2 float-left">
-                            <div class="full-width">
-                                <i class="float-left"><img class="icon-job" src="./public/image/Luong.png"></i><span
-                                    class="float-left"
-                                    class="job-company-saraly">Mức Lương: 10tr - 15tr VNĐ</span>
-
+                            <div class="text-line-height"><i> <img class="icon-job" src="./public/image/Luong.png"></i>Mức
+                                Lương:
+                                <span class="job-company-saraly">10tr - 15tr VNĐ</span>
                             </div>
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/Deadline.png"></i>Hạn Nộp Hồ Sơ: 10/10/2020
                             </div>
 
@@ -837,10 +741,10 @@
 
                         <p>Công ty TNHH MTV tuyển nhân viên</p>
                         <div class="detail-job-2 float-left">
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/So_Luong.jpg"></i>Số lượng: 10<br>
                             </div>
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/Dia_Diem.png"></i>Địa chỉ:<a
                                     class="job-company-add"> Đồng
                                 Nai</a>
@@ -848,13 +752,11 @@
                         </div>
 
                         <div class="detail-job-2 float-left">
-                            <div class="full-width">
-                                <i class="float-left"><img class="icon-job" src="./public/image/Luong.png"></i><span
-                                    class="float-left"
-                                    class="job-company-saraly">Mức Lương: 10tr - 15tr VNĐ</span>
-
+                            <div class="text-line-height"><i> <img class="icon-job" src="./public/image/Luong.png"></i>Mức
+                                Lương:
+                                <span class="job-company-saraly">10tr - 15tr VNĐ</span>
                             </div>
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/Deadline.png"></i>Hạn Nộp Hồ Sơ: 10/10/2020
                             </div>
 
@@ -874,10 +776,10 @@
 
                         <p>Công ty TNHH MTV tuyển nhân viên</p>
                         <div class="detail-job-2 float-left">
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/So_Luong.jpg"></i>Số lượng: 10<br>
                             </div>
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/Dia_Diem.png"></i>Địa chỉ:<a
                                     class="job-company-add"> Đồng
                                 Nai</a>
@@ -885,13 +787,11 @@
                         </div>
 
                         <div class="detail-job-2 float-left">
-                            <div class="full-width">
-                                <i class="float-left"><img class="icon-job" src="./public/image/Luong.png"></i><span
-                                    class="float-left"
-                                    class="job-company-saraly">Mức Lương: 10tr - 15tr VNĐ</span>
-
+                            <div class="text-line-height"><i> <img class="icon-job" src="./public/image/Luong.png"></i>Mức
+                                Lương:
+                                <span class="job-company-saraly">10tr - 15tr VNĐ</span>
                             </div>
-                            <div class="full-width">
+                            <div class="full-width text-line-height">
                                 <i><img class="icon-job" src="./public/image/Deadline.png"></i>Hạn Nộp Hồ Sơ: 10/10/2020
                             </div>
 
@@ -900,11 +800,12 @@
                     </div>
 
                 </div>
-
             </div>
 
         </div>
     </div>
+
+
     <div class="row ">
         <div class="banner-ad-footer">
             <h1>Banner Ad</h1>
@@ -975,14 +876,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <!-- Bootstrap JS -->
-<script src="./js/vendors/bootstrap.min.js"></script>
+<script src="./public/js/vendors/bootstrap.min.js"></script>
 <!-- Slick slider plugin JS -->
-<script src="./js/vendors/slick.min.js?v=1.1"></script>
+<script src="./public/js/vendors/slick.min.js?v=1.1"></script>
 <!-- Countdown plugin used on coming soon page -->
-<script src="./js/vendors/jquery.countdown.min.js"></script>
+<script src="./public/js/vendors/jquery.countdown.min.js"></script>
 <!-- Summernote Text editor plugin used on create resume page -->
-<script src="./js/vendors/summernote.min.js"></script>
+<script src="./public/js/vendors/summernote.min.js"></script>
 <!-- Custom Javascript code as per requirement -->
-<script src="./js/custom.js"></script>
+<script src="./public/js/custom.js"></script>
 </body>
 </html>
