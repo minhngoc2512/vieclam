@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="813fb219-ad8d-4456-96e0-df4d82dfaf55" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/vendors/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/List-Email-mời-đăng-tin-đợt-3-T10.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/404.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/500.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/BG_KCN.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/BackLink_140x110.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Background-QC.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Banner_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/CHplay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Deadline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Dia_Diem.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Itunes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/LOGO-Menu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/List Email mời đăng tin Tháng 9.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/List Email mời đăng tin đợt 3 T10.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/List Email mời đăng tin đợt 4 T10.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Local.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Luong.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Mock_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Money.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/So_Luong.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Tìm kiếm - Lọc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/about-us.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/advertise-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog-img-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog-img-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blog-img-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-3docean.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-at-and-t.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-codecynon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-google.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-graphicriver.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-hp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-infosys.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-photodune.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-tata.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-themeforest.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/client-videohive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cp-charles-white.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cp-john-doe.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cp-patty-white.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cp-steven-lewis.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cp-susan-chan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/footer-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/job-list-logo-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/job-list-logo-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/job-list-logo-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/job-list-logo-04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/job-list-logo-05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/job-list-logo-06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/job-list-logo-07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/job-list-logo-08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/kevin-bekar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/michel-brown.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/susan-taylor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/team-work.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/user-wall-pic.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/Banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/Logo_Footer_190x130.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/app.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/application.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/category.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/custom_index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/customize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/layout.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/mixins.less " />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/responsive.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/search.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/vendors/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/vendors/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/vendors/slick-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/vendors/slick.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/vendors/summernote.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/.~lock.List Email mời đăng tin Tháng 9.xlsx#" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/.~lock.List Email mời đăng tin đợt 3 T10.xlsx#" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/.~lock.List Email mời đăng tin đợt 4 T10.xlsx#" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendors/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendors/jquery.countdown.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendors/less.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendors/slick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendors/summernote.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company.html" afterPath="$PROJECT_DIR$/company.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="168" column="18" lean-forward="true" selection-start-line="168" selection-start-column="18" selection-end-line="168" selection-end-column="18" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="company.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/company.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="665" column="34" lean-forward="false" selection-start-line="665" selection-start-column="20" selection-end-line="665" selection-end-column="34" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="274" column="6" lean-forward="true" selection-start-line="274" selection-start-column="6" selection-end-line="274" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Banner_01.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/Banner_01.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Banner.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/Banner.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>title-content-top</find>
+      <find>img-content-top</find>
+      <find>detail-job</find>
+      <find>span</find>
+      <find>content-top</find>
+      <find>mo-ta-cv</find>
+      <find>job-detail-3</find>
+      <find>job-detail-2</find>
+      <find>@me</find>
+      <find>@med</find>
+      <find>IMG</find>
+      <find>job-comapany-add</find>
+      <find>job-company-add</find>
+      <find>job-comap</find>
+      <find>job-company-saraly</find>
+      <find>id=&quot;job-comapany-add&quot;</find>
+      <find>id=&quot;job-company-saraly&quot;</find>
+      <find>id=&quot;mo-ta-cv&quot;</find>
+      <find>mo-ta</find>
+      <find>search</find>
+      <find>tile-page</find>
+      <find>banner-ad</find>
+      <find>@m</find>
+      <find>class=&quot;mo-ta-cv&quot;</find>
+      <find>content-topa</find>
+      <find>content-company-middle</find>
+      <find>content-footer</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/application.css" />
+        <option value="$PROJECT_DIR$/company.html" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="40" />
+    <option name="y" value="60" />
+    <option name="width" value="1353" />
+    <option name="height" value="803" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vieclam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vieclam" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vieclam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vieclam" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vieclam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vieclam" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vieclam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vieclam" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vieclam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vieclam" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bootstrap.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="vieclam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vieclam" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="image" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/image" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/public/css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="813fb219-ad8d-4456-96e0-df4d82dfaf55" name="Default" comment="" />
+      <created>1507859238551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1507859238551</updated>
+      <workItem from="1507859246507" duration="26855000" />
+      <workItem from="1507943101687" duration="15299000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="42154000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="40" y="60" width="1353" height="803" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1537873" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="284" column="18" lean-forward="false" selection-start-line="284" selection-start-column="18" selection-end-line="284" selection-end-column="18" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3654">
+          <caret line="203" column="6" lean-forward="true" selection-start-line="203" selection-start-column="6" selection-end-line="203" selection-end-column="6" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8550">
+          <caret line="475" column="16" lean-forward="true" selection-start-line="475" selection-start-column="16" selection-end-line="475" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/vendors/slick.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6318">
+          <caret line="351" column="34" lean-forward="true" selection-start-line="351" selection-start-column="34" selection-end-line="351" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/vendors/slick.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="475" column="16" lean-forward="false" selection-start-line="475" selection-start-column="16" selection-end-line="475" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Banner_01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Banner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="665" column="34" lean-forward="false" selection-start-line="665" selection-start-column="20" selection-end-line="665" selection-end-column="34" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="274" column="6" lean-forward="true" selection-start-line="274" selection-start-column="6" selection-end-line="274" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="168" column="18" lean-forward="true" selection-start-line="168" selection-start-column="18" selection-end-line="168" selection-end-column="18" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
