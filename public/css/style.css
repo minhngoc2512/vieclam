@@ -10,8 +10,8 @@
 
 }
 .banner-1{
-	height: 35vh;
-	padding: 15vh 0 0 0;
+	height: 300px;
+	padding: 130px 0 0 0;
 	background: url(../image/Banner.jpg) center center no-repeat;
 	background-size: auto auto;
 	position: relative;
@@ -107,7 +107,7 @@ body{
 }
 .content-saraly{
 	font-size: 16px;
-	color: #0e9bd6;
+	color: #fe8740;
 }
 .content-date{
 	margin-top: 10px;
@@ -118,7 +118,7 @@ body{
 	text-align: center;
 	margin-top:auto;
 	margin-bottom: auto;
-	margin-top: 18%;
+	margin-top: 36px;
 }
 .content-button input{
 	background-color: #fe8740;
@@ -395,14 +395,15 @@ body{
 }
 .text-content-top-job{
 	font-size: 18px;
-	line-height: 20px;
+	line-height: 27px;
 }
 .text-14{
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 21px;
 }
 .text-16{
 	font-size: 16px;
+	line-height: 24px !important;
 }
 .padding-bottom-content{
 	margin-bottom: 20px;
@@ -418,7 +419,7 @@ body{
 	margin-top: 20px;
 }
 .text-company-parent .text-company{
-	line-height: 25px;
+	line-height: 27px;
 }
 #key-search{
 	background: url(../image/Search.png) #fff no-repeat;
@@ -439,7 +440,7 @@ body{
 	padding-left: 40px;
 }
 .text-line-height{
-	line-height: 24px;
+	line-height: 21px;
 }
 .text-line-height-2{
 
