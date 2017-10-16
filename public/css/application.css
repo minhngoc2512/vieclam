@@ -3152,7 +3152,7 @@ Version      :  1.0
     padding: 5px 20px;
   }
 }
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 767px) {
   header .navbar-inverse .navbar-collapse {
     border: none;
     box-shadow: none;
