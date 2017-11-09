@@ -1,0 +1,28 @@
+.signup-signin .name {
+  color: #0e9bd6;
+  margin: 0 0 25px;
+}
+.signup-signin .des {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 0 20px;
+}
+
+.btn.btn-secondary {
+  background-color: #0e9bd6;
+}
+section.signup-signin .signin-form .register-link > a {
+  color: #fe8740;
+}
+form .form-group.checkbox > a {
+  color: #0e9bd6;
+}
+
+button.btn.btn-md.btn-facebook.push-top-xs {
+  background: #3b5998;
+  color: #fff;
+}
+button.btn.btn-md.btn-google.push-top-xs {
+  background: #d73925;
+  color: #fff;
+}

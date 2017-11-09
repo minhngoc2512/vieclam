@@ -1,0 +1,291 @@
+/*
+* ----------------------------------------------------------------------------------------
+Author       :  pixshed
+Template Name:  Mega Jobs - Job board
+Version      :  1.0
+* ----------------------------------------------------------------------------------------
+*/
+
+//	============ CUSTOM BOOTSTRAP CSS ============ 
+*:focus{
+	outline:none;
+}
+.form-control:focus{
+	box-shadow:none;
+	border-color:lighten(@text-color-darker, 62%);
+}
+.btn{
+	&:not(.note-btn){
+		height:40px;
+		padding:9px 15px;
+		font-family:'Montserrat', sans-serif;
+		font-size:18px;
+		line-height:20px;
+		.border-radius-none;
+		&:hover, &:active, &:focus{
+			box-shadow:none;
+			outline:none;
+		}
+	}
+}
+@media screen and (max-width:320px){
+	.btn{
+		&:not(.note-btn){
+			font-size:14px;
+		}
+	}
+}
+.btn-default{
+	&:not(.note-color-reset){
+		color:lighten(@text-color-darker, 20%);
+		border-color:@color-dark-inverse;
+		&:hover, &:active, &:focus{
+			background-color:@color-light-inverse;
+			border-color:@color-light-inverse;
+			color:@color-dark-inverse;
+		}
+	}
+}
+.btn-primary{
+	line-height:30px;
+	color:@color-primary-inverse;
+	background:@color-primary;
+	border-color:@color-primary;
+	&:hover, &:active, &:focus{
+		border-color:darken(@color-primary, 15%);
+		background-color:darken(@color-primary, 15%);
+	}
+}
+.btn.btn-secondary{
+	height:50px;
+	padding:14px 15px;
+	line-height:20px;
+	background-color:@color-secondary;
+	border-color:@color-secondary;
+	color:@color-dark-inverse;
+	&:hover, &:focus, &:active{
+		background-color:darken(@color-secondary, 15%);
+		border-color:darken(@color-secondary, 15%);
+	}
+}
+.btn-sm{
+	&:not(.note-btn){
+		padding:6px 15px;
+		font-size:14px;
+		font-weight:400;
+		line-height:28px;
+	}
+}
+.btn-inverse{
+	background-color:lighten(@text-color-darker, 20%);
+	border-color:lighten(@text-color-darker, 20%);
+	color:@color-dark-inverse;
+	&:hover, &:active, &:focus{
+		color:@color-dark-inverse;
+		border-color:@text-color-darker;
+		background-color:@text-color-darker;
+	}
+}
+.btn-toggle{
+	width:50%;
+	padding:10px 20px;
+	font-size:16px;
+	font-weight:400;
+	color:@color-secondary;
+	background-color:@color-dark-inverse;
+	border-color:@color-secondary;
+	&.active{
+		color:@color-dark-inverse;
+		background-color:@color-secondary;
+		box-shadow:none;
+	}
+}
+.btn-link{
+	font-size:14px;
+	font-weight:300;
+	color:@color-tertiary;
+	text-transform:uppercase;
+	text-decoration:none;
+	&:hover, &:focus, &:active{
+		color:darken(@text-color-darker, 13%);
+		text-decoration:none;
+	}
+}
+.btn.btn-special{
+	background-color:@color-secondary;
+	border-color:@color-secondary;
+	color:@color-dark-inverse;
+	font-size:20px;
+	line-height:26px;
+	padding:12px 35px;
+	height:50px;
+	&:hover, &:focus, &:active{
+		background-color:@color-primary;
+		border-color:@color-primary;
+		color:@color-dark-inverse;
+	}
+}
+.btn-group{
+	font-family:'Montserrat', sans-serif;
+	&:not(.note-btn-group){
+		.btn + .btn{
+			margin-left:15px;
+		}
+		.btn-toggle + .btn-toggle{
+			margin:0;
+		}
+	}
+}
+
+.label{
+	font-size:14px;
+	font-weight:400;
+	padding:5px 12px;
+	border-radius:0;
+}
+.label-lg{
+	font-size:16px;
+	font-weight:300;
+	padding:10px 15px;
+}
+.label-default{
+	display:inline-block;
+	background-color:lighten(@text-color-darker, 77%);
+	color:@text-color-darker;
+}
+.progress{
+	height:10px;
+	box-shadow:none;
+	background-color:@color-dark-inverse;
+	border:lighten(@text-color-darker, 62%) 1px solid;
+}
+.navbar-inverse{
+	.navbar-toggle, .navbar-toggle:hover, .navbar-toggle:focus{
+		background-color:@color-secondary;
+		border-color:@color-secondary;
+		margin:18px 15px 18px 0;
+		.icon-bar{
+			background-color:@color-dark-inverse;
+		}
+	}
+}
+//	============ CUSTOM BROWSE BUTTON ============ 
+.custom-input{
+	position:relative;
+	overflow:hidden;
+	> span{
+		height:70px;
+		padding:20px;
+		background-color:@color-primary;
+		font-size:18px;
+		font-weight:700;
+		line-height:30px;
+		color:@color-primary-inverse;
+		text-transform:uppercase;
+		display:block;
+		text-align:center;
+		> i{
+			font-size:24px;
+			margin-right:10px;
+		}
+	}
+	> input[type="file"]{
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		opacity:0;
+		cursor:pointer;
+	}
+}
+//	============ CUSTOM CHECKBOX CSS ============ 
+input[type="checkbox"], input[type="radio"]{
+	&:not(:checked), &:checked{
+		position:absolute;
+		left:-9999px;
+	}
+	+ label{
+		position:relative;
+		padding-left:25px;
+		cursor:pointer;
+		&:before{
+			content:'';
+			position:absolute;
+			left:0;
+			top:3px;
+			width:16px;
+			height:16px;
+			border:1px solid #b0b0b0;
+			background:#DDD;
+			border-radius:3px;
+			.inset-box-shadow;
+		}
+		&:after{
+			content:'âœ”';
+			position:absolute;
+			top:-1px; left:1px;
+			font-size:22px;
+			line-height:0.8;
+			color:#09ad7e;
+			.transition-02s;
+		}
+	}
+	&:not(:checked) + label:after {
+		opacity:0;
+		transform:scale(0);
+	}
+	&:checked + label:after {
+		opacity:1;
+		transform:scale(1);
+	}
+	&:disabled{
+		&:not(:checked) + label, &:checked + label{
+			&:before{
+				box-shadow:none;
+				border-color:#bbb;
+				background-color:#ddd;
+			}
+		}
+		&:checked + label:after{
+			color:#999;
+		}
+		+ label{
+			color:#aaa;
+		}
+	}
+	&:checked:focus, &:not(:checked:focus){
+		+ label:before{
+			outline:none;
+		}
+	}
+}
+//	============ CUSTOM RADIO CSS ============ 
+input[type="radio"]{
+	+ label{
+		&:before{
+			content:'';
+			border-radius:8px;
+		}
+		&:after{
+			content:'';
+			height:8px;
+			width:8px;
+			border-radius:6px;
+			top:7px; left:4px;
+			background-color:#09ad7e;
+		}
+	}
+	&:checked + label:after {
+		opacity:1;
+		transform:scale(1);
+	}
+	&:disabled{
+		&:checked + label:after{
+			background-color:#999;
+		}
+	}
+}
+
+
+

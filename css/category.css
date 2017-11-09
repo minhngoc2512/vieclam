@@ -1,0 +1,17 @@
+h1.category_name {
+    font-size: 26px;
+    margin: 0 0 20px;
+}
+.category_name span.name {
+    color: #0e9bd6;
+}
+.category_name span.count {
+    color: #b7b7b7;
+    font-size: 20px;
+}
+h2.category_description {
+    font-size: 16px;
+    text-transform: inherit;
+    color: #101010;
+    text-align: justify;
+}

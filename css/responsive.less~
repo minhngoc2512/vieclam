@@ -1,0 +1,552 @@
+/* * ----------------------------------------------------------------------------------------
+Author       :  pixshed
+Template Name:  Mega Jobs - Job board
+Version      :  1.0
+* ---------------------------------------------------------------------------------------- */
+
+/* * ----------------------------------------------------------------------------------------
+* 01.TABLET AND iPAD LANDSCAPE RESPONSIVE STYLE
+* 02.TABLET AND iPAD PORTRAIT RESPONSIVE STYLE
+* 03.iPHONE AND SMALL DEVICES LANDSCAPE RESPONSIVE STYLE
+* 04.iPHONE AND SMALL DEVICES PORTRAIT RESPONSIVE STYLE
+* ---------------------------------------------------------------------------------------- */
+
+/* * ----------------------------------------------------------------------------------------
+* 01.TABLET AND iPAD LANDSCAPE RESPONSIVE STYLE
+* ---------------------------------------------------------------------------------------- */
+@media screen and (max-width:1024px){
+	.custom-input{
+		> span{
+			font-size:17px;
+			padding:20px 0;
+		}
+	}
+	section{
+		&.blog-container{
+			.blog-small{
+				&.blog-large{
+					min-height:772px;
+					overflow:hidden;
+					> img{
+						min-height:772px;
+						width:auto;
+					}
+				}
+			}
+		}
+	}
+	.inner-page{
+		.inner-banner{
+			.sidebar{
+				.filters-wrap{
+					.filter-list{
+						.followers-count{
+							margin:0;
+						}
+						a.link{
+							margin:0 0 23px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.job-list{
+		.job-icons{
+			a{
+				margin-top:5px;
+			}
+		}
+	}
+}
+@media screen and (max-width:992px){
+	header{
+		&.header-01, &.header-02, &.header-03{
+			.navbar-inverse{
+				.container{
+					width:auto;
+				}
+				.dropdown-menu.container{
+					width:750px;
+				}
+			}
+		}
+	}
+	section{
+		&.banner{
+			.search-category{
+				margin-top:10px;
+			}
+		}
+		&.banner-02 .job-search{
+			margin-top:20px;
+		}
+		&.browse-jobs{
+			ul.job-category-list{
+				margin-bottom:30px;
+			}
+		}
+		&.inner-banner{
+			.custom-input{
+				margin-bottom:20px;
+			}
+		}
+		&.blog-container .blog-small.blog-large > img{
+			width:100%;
+		}
+		&.aboutus{
+			h3{
+				margin:30px 0 20px;
+			}
+			img.bordered{
+				margin-top:20px;
+			}
+		}
+		.team-member{
+			.team-mate-intro{
+				padding:20px;
+			}
+		}
+	}
+	.inner-page{
+		.search-result{
+			h5{
+				margin-bottom:20px;
+			}
+		}
+		.position-intro{
+			.company-info h1{
+				margin-top:10px;
+			}
+			.btn-group{
+				margin:20px 0 0;
+			}
+			address{
+				margin:15px 0;
+			}
+		}
+		.inner-banner{
+			.sidebar{
+				.filters-wrap{
+					.filter-list{
+						.followers-count{
+							margin:10px 0;
+						}
+					}
+				}
+			}
+		}
+	}
+	.job-list, .company-list{
+		margin-top:20px;
+	}
+	.sidebar{
+		.filters-wrap{
+			.filter-list{
+				input.form-control[type="number"]{
+					margin-bottom:5px;
+				}
+			}
+		}
+	}
+}
+/* * ----------------------------------------------------------------------------------------
+* 02.TABLET AND iPAD PORTRAIT RESPONSIVE STYLE
+* ---------------------------------------------------------------------------------------- */
+@media screen and (max-width:767px){
+	header{
+		&.header-01{
+			.navbar-inverse{
+				margin-top:10px;
+				padding:0;
+				background-color:@color-light-inverse;
+				border-top:@theme-color-primary 3px solid;
+			}
+			&.affix{
+				.navbar-inverse{
+					margin-top:0;
+					padding:0;
+				}
+			}
+		}
+
+		&.header-01, &.header-02, &.header-03{
+			.navbar-inverse{
+				.dropdown-menu.container{
+					width:100%;
+				}
+			}
+		}
+
+		.navbar-nav .open .mega-dropdown-menu .dropdown-header{
+			padding:5px 20px;
+		}
+	}
+}
+@media screen and (max-width:736px){
+	header{
+		.navbar-inverse{
+			.navbar-collapse{
+				border:none;
+				box-shadow:none;
+				max-height:~"calc(100vh - 70px)";
+			}
+			.navbar-nav{
+				min-width:240px;
+				background-color:@color-light-inverse;
+				margin:0;
+				> li{
+					margin:0;
+					display:block;
+					text-align:left;
+					&.sign-in{
+						margin:10px 0;
+						float:none !important;
+					}
+					> .dropdown-menu{
+						min-width:100%;
+						position:relative;
+					}
+				}
+			}
+		}
+	}
+	h1{
+		font-size:26px;
+	}
+	h2{
+		font-size:30px;
+	}
+	section{
+		&.banner, &.banner-02{
+			height:auto;
+			padding:140px 0 100px 0;
+		}
+		&.banner{
+			.client-slider{
+				padding:7px 0;
+				.slick-slide img{
+					width:50px;
+				}
+			}
+		}
+		&.banner, &.inner-banner{
+			.form-inline{
+				padding:10px 3px 10px 10px;
+				.form-group{
+					width:100%;
+					&.keyword{
+						width:100%;
+						margin-bottom:7px;
+					}
+				}
+				.input-group{
+					width:100%;
+					display:inline-block;
+					input[type="submit"]{
+						width:~"calc(100% - 7px)";
+					}
+				}
+			}
+		}
+		&.browse-jobs{
+			.form-inline{
+				.form-group{
+					display:inline-block;
+					.form-control{
+						width:auto;
+					}
+				}
+				.input-group, .btn-group{
+					display:inline-block;
+					vertical-align:top;
+				}
+			}
+		}
+		&.blog-container{
+			.blog-small{
+				a.blog-image{
+					width:30%;
+					float:left;
+					margin-right:20px;
+				}
+				p{
+					min-height:80px;
+				}
+				&.blog-large{
+					min-height:auto;
+					> img{
+						min-height:auto;
+					}
+				}
+			}
+		}
+		&.plans-pricing .plan-wrap{
+			margin-bottom:30px;
+		}
+		&.select-plan{
+			.plan-options{
+				> div{
+					.choose-plan-wrap{
+						height:auto;
+						ul{
+							min-height:auto;
+						}
+					}
+				}
+			}
+		}
+		&.signup-signin{
+			.countdown-timer{
+				> span{
+					width:90px;
+					padding:20px 0px;
+					font-size:36px;
+					margin-bottom:-1px;
+					border-bottom:@color-lighter 1px solid;
+					> small{
+						font-size:14px;
+						line-height:20px;
+					}
+				}
+			}
+		}
+	}
+	footer{
+		.copyright{
+			text-align:center;
+			.author-info{
+				margin-top:10px;
+				text-align:center;
+			}
+		}
+	}
+	.custom-input > span{
+		height:50px;
+		padding:10px 0;
+	}
+	.team-member{
+		margin-bottom:30px;
+	}
+}
+@media screen and (max-width:767px) and (min-width:481px){
+	.container{
+		width:480px;
+	}
+}
+/* * ----------------------------------------------------------------------------------------
+* 03.iPHONE AND SMALL DEVICES LANDSCAPE RESPONSIVE STYLE
+* ---------------------------------------------------------------------------------------- */
+@media screen and (max-width:667px){
+	section{
+		&.blog-container{
+			.blog-small{
+				p{
+					min-height:54px;
+				}
+			}
+		}
+		&.signup-signin{
+			.nav-tabs{
+				> li > a{
+					padding:15px 30px;
+				}
+			}
+		}
+		&.inner-banner{
+			h4 > span{
+				display:inline-block;
+				float:none !important;
+				line-height:18px;
+			}
+		}
+	}
+}
+@media screen and (max-width:570px){
+	section{
+		&.banner{
+			.form-wrapper{
+				padding:0 15px;
+			}
+		}
+		&.browse-jobs{
+			.job-box{
+				img{
+					max-width:300px;
+				}
+				.job-details{
+					width:~"calc(100% - 310px)";
+					p{
+						line-height:15px;
+						height:30px;
+						margin-bottom:10px;
+					}
+				}
+			}
+		}
+	}
+	.job-list{
+		.list-view{
+			.list-info{
+				h4{
+					width:100%;
+				}
+			}
+		}
+	}
+	.inner-page{
+		.position-intro{
+			padding:15px 15px 0;
+			.actionbar{
+				margin:0 -15px;
+			}
+		}
+		.position-details{
+			.position-footer{
+				padding:10px;
+			}
+		}
+	}
+	.posted-by{
+		display:none;
+	}
+}
+/* * ----------------------------------------------------------------------------------------
+* 04.iPHONE AND SMALL DEVICES PORTRAIT RESPONSIVE STYLE
+* ---------------------------------------------------------------------------------------- */
+@media screen and (max-width:480px){
+	section{
+		&.browse-jobs{
+			.job-box{
+				img{
+					max-width:100%;
+				}
+				.job-details{
+					width:100%;
+					p{
+						line-height:18px;
+						height:54px;
+						margin-bottom:15px;
+					}
+				}
+			}
+		}
+		&.signup-signin{
+			.signin-form{
+				padding:30px;
+				.register-link{
+					> a{
+						display:inline-block;
+						margin:25px 0 0 5px;
+					}
+				}
+			}
+			.nav-tabs{
+				> li > a{
+					font-size:28px;
+				}
+			}
+		}
+	}
+	form{
+		.form-group.checkbox{
+			text-align:center;
+			> a{
+				display:inline-block;
+				margin:15px 15px 0;
+			}
+		}
+	}
+	.inner-page{
+		.search-result-values{
+			.btn-inverse{
+				font-size:16px;
+				margin:0;
+			}
+		}
+	}
+	ul.pagination li{
+		height:30px;
+		line-height:30px;
+		font-size:13px;
+		margin:0;
+		&.page-text{
+			padding:0 7px;
+		}
+		a{
+			height:30px;
+			width:30px;
+			padding:1px 3px;
+			> i{
+				font-size:16px;
+			}
+		}
+		input[type="text"]{
+			height:30px;
+			width:30px;
+			padding:1px 3px;
+		}
+	}
+	.jobs-tab-panel{
+		.nav-tabs{
+			> li > a{
+				font-size:16px;
+				padding:0 10px 8px;
+			}
+		}
+	}
+	.job-list{
+		.list-view{
+			padding:15px;
+			.list-info{
+				p{
+					> span{
+						display:inline-block;
+						> .fa{
+							&:first-child{
+								margin:0;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width:375px){
+	.job-list{
+		.list-view{
+			a{
+				img{
+					max-width:50px;
+					margin-right:10px;
+				}
+			}
+			.list-info.job-list-info{
+				width:~"calc(100% - 69px)";
+			}
+		}
+	}
+}
+@media screen and (max-width:360px){
+	.jobs-tab-panel{
+		.nav-tabs{
+			> li > a{
+				padding:15px 20px 5px 0px;
+			}
+		}
+	}
+	.company-list{
+		.company-grid{
+			a{
+				img{
+					max-width:50px;
+					margin-right:10px;
+				}
+			}
+			.company-info{
+				width:~"calc(100% - 65px)";
+			}
+		}
+	}
+}

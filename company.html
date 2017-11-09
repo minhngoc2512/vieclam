@@ -7,7 +7,7 @@
 
     <title>chi tiet</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/vendors/bootstrap.min.css">
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,42 +22,23 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- Font Awesome for icon fonts -->
-    <link href="./public/css/vendors/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/vendors/font-awesome.min.css" rel="stylesheet">
     <!-- Google Font API for Lato and Montserrat font families -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:400,700" rel="stylesheet">
     <!-- CSS for slick slider plugin -->
-    <link href="./public/css/vendors/slick.css" rel="stylesheet">
-    <link href="./public/css/vendors/slick-theme.css" rel="stylesheet">
+    <link href="./css/vendors/slick.css" rel="stylesheet">
+    <link href="./css/vendors/slick-theme.css" rel="stylesheet">
     <!-- Main Custom LESS file -->
-    <link href="./public/css/application.css?v=1.2" rel="stylesheet" />
-    <link href="./public/css/custom_index.css?v=1.5" rel="stylesheet" />
-    <link rel="stylesheet" href="./public/css/style.css">
+    <link href="./css/application.css?v=1.2" rel="stylesheet" />
+    <link href="./css/custom_index.css?v=1.5" rel="stylesheet" />
+
+    <link href="css/search.css?v=1.5" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./css/style.css?v=1.1">
 </head>
 
 <body>
-    <!--<div class="row search-bar">-->
-    <!--<div class="form-search ">-->
-    <!--<from class="form-group ">-->
 
-    <!--<input class="form-control  input-text-search" placeholder="name job" type="text">-->
-
-    <!--<select class="form-control input-search-margin  input-text-search">-->
-    <!--<option>demo 1</option>-->
-    <!--<option>demo 1</option>-->
-    <!--<option>demo 1</option>-->
-    <!--</select>-->
-
-    <!--<select class="form-control input-search-margin  input-text-search">-->
-    <!--<option>demo 1</option>-->
-    <!--<option>demo 1</option>-->
-    <!--<option>demo 1</option>-->
-    <!--</select>-->
-
-    <!--<button class="form-control input-search-margin btn-search">Tìm kiếm</button>-->
-    <!--</from>-->
-    <!--</div>-->
-
-    <!--</div>-->
     <header class="navbar-fixed-top" data-spy="affix" data-offset-top="60">
         <!-- MAIN NAVIGATION STARTS -->
         <nav class="navbar navbar-inverse">
@@ -71,18 +52,18 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <img src="./public/image/LOGO-Menu.png" alt="Mega Jobs Logo">
+                        <img src="img/LOGO-Menu.png" alt="Mega Jobs Logo">
                     </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="main-nav">
                     <ul class="nav navbar-nav text-center">
-                        <li class="dropdown">
-                            <a href="/job-listing.html" class="dropdown-toggle" data-toggle="dropdown">Tất Cả Việc Làm</a>
+                        <li>
+                            <a href="/job-listing.html">Tất Cả Việc Làm</a>
                         </li>
-                        <li class="dropdown">
-                            <a href="/job-listing.html" class="dropdown-toggle" data-toggle="dropdown">Việc làm mới nhất
+                        <li>
+                            <a href="/job-listing.html">Việc làm mới nhất
                             </a>
                         </li>
                         <li class="dropdown">
@@ -123,11 +104,11 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Giới Thiệu</a>
                         </li>
 
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Đăng nhập</a>
+                        <li>
+                            <a href="/ntv_login.html">Đăng nhập</a>
                         </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Đăng ký</a>
+                        <li>
+                            <a href="/ntv_register.html">Đăng ký</a>
                         </li>
                         <li>
                             <button class="employer">Nhà tuyển dụng</button>
@@ -143,7 +124,9 @@
         <!-- BANNER STARTS -->
         <div class="container form-wrapper">
             <div class="tile-page">
-                <center>Hàng ngàn công việc mới đang chờ bạn</center>
+                <center>
+                    Hàng ngàn công việc mới đang chờ bạn
+                </center>
             </div>
 
 
@@ -157,18 +140,20 @@
     </section>
 
 
-    <section class="banner search-bar-2">
+    <section class="inner-banner">
+
+
         <!-- BANNER STARTS -->
-        <div>
+        <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <!-- JOB SEARCH FORM STARTS -->
                     <form class="form-inline">
                         <div class="form-group keyword">
-                            <input type="text" class="form-control" id="key-search" placeholder="Ngành nghề, từ khóa...">
+                            <input type="text" class="form-control keyword_carrer" placeholder="Ngành nghề, từ khóa...">
                         </div>
                         <div class="form-group keyword">
-                            <select data-placeholder="Địa điểm" class="chosen-select form-control" id="location-search" tabindex="5" name="province">
+                            <select data-placeholder="Địa điểm" class="chosen-select form-control province_search" tabindex="5" name="province">
                                 <option selected="">Địa điểm</option>
                                 <option value="">Bình Dương</option>
                                 <option value="">Đồng Nai</option>
@@ -176,7 +161,7 @@
                         </div>
                         <div class="form-group keyword search_province">
 
-                            <select data-placeholder="Mức lương khởi điểm" class="chosen-select form-control" id="saraly-search" tabindex="5" name="salary">
+                            <select data-placeholder="Mức lương khởi điểm" class="chosen-select form-control salary_search" tabindex="5" name="salary">
                                 <option selected="">Mức lương</option>
                                 <option value="">Bình Dương</option>
                                 <option value="">Đồng Nai</option>
@@ -190,6 +175,7 @@
                 </div>
             </div>
         </div>
+        <!-- BANNER ENDS -->
     </section>
 
 
@@ -202,13 +188,17 @@
                 <!-- <div class="content-top"> -->
                 <div class="col-md-2 col-sm-12">
                     <center>
-                        <img src="./public/image/logo_cong_ty_130x130.jpg" class="img-content-top">
+                        <a title href="#">
+                            <img src="./img/logo_cong_ty_130x130.jpg" class="img-content-top">
+                        </a>
                     </center>
 
                 </div>
 
                 <div class="col-md-7">
-                    <div class="title-content-top">Công ty FPT cần tuyển 10 nhân viện bán hàng</div>
+                    <a title href="#">
+                        <h2 class="title-content-top">Công ty FPT cần tuyển 10 nhân viện bán hàng</h2>
+                    </a>
                     <div class="text-company-parent">
                         <div class="text-company">Địa điểm: Vũng Tàu</div>
                         <div class="text-company">Website: fpt.com.vn</div>
@@ -221,7 +211,7 @@
                 <div class="col-md-3 ">
                     <div class="content-button">
                         <div id="count-job"> 20</div>
-                        <p class="text-count">Số tin tuyển dụng</p>
+                        <span class="text-count">Số tin tuyển dụng</span>
                     </div>
                 </div>
                 <!-- </div> -->
@@ -242,439 +232,348 @@
                             <option>1</option>
                         </select>
                     </div>
-                    <div class="job-company-1">
-                        <div>
-                            <div class="float-left">
-                                <img class="img-content-middle" src="./public/image/bdqt-1-2.png">
-                            </div>
-
-                            <div class="job-detail-2 float-left">
-                                <p>Công ty TNHH MTV tuyển nhân viên</p>
-                                <div class="detail-job-2 float-left">
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/So_Luong.jpg">
-                                        </i>Số lượng: 10
-                                        <br>
+                    <div class="job-list">
+                        <div class="list-view">
+                            <a title class="logo" href="company.html">
+                                <img src="img/job-list-logo-01.jpg" alt="Company Logo 01">
+                            </a>
+                            <div class="list-info job-list-info">
+                                <h3 class="item-title">
+                                    <a title href="detail.html">Công ty Cổ phần Eurowindow tuyển Nhân viên kế hoạch
+                                    </a>
+                                </h3>
+                                <div class="job-icons">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="number_job">Số lượng: 01</span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="salary_job">Mức lương:
+                                                <a href="#">10 TRIỆU - 15 TRIỆU</a>
+                                            </span>
+                                        </div>
                                     </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Dia_Diem.png">
-                                        </i>Địa chỉ:
-                                        <a href="#" class="job-company-add"> Đồng Nai
-                                        </a>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="location_job">Địa chỉ:
+                                                <a href="#">Đồng Nai</a>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="date_job">Hạn Nộp Hồ Sơ: 10/11/2017</span>
+                                        </div>
                                     </div>
-                                </div>
-
-                                <div class="detail-job-2 float-left">
-                                    <div class="text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Luong.png">
-                                        </i>Mức Lương:
-                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
-                                    </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Deadline.png">
-                                        </i>Hạn Nộp Hồ Sơ: 10/10/2020
-                                    </div>
-
                                 </div>
 
                             </div>
                         </div>
-
-                    </div>
-                    <div class="job-company-1">
-                        <div>
-                            <div class="float-left">
-                                <img class="img-content-middle" src="./public/image/bdqt-1-2.png">
-                            </div>
-
-                            <div class="job-detail-2 float-left">
-                                <p>Công ty TNHH MTV tuyển nhân viên</p>
-                                <div class="detail-job-2 float-left">
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/So_Luong.jpg">
-                                        </i>Số lượng: 10
-                                        <br>
+                        <div class="list-view">
+                            <a title class="logo" href="company.html">
+                                <img src="img/job-list-logo-01.jpg" alt="Company Logo 01">
+                            </a>
+                            <div class="list-info job-list-info">
+                                <h3 class="item-title">
+                                    <a title href="detail.html">Công ty Cổ phần Eurowindow tuyển Nhân viên kế hoạch
+                                    </a>
+                                </h3>
+                                <div class="job-icons">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="number_job">Số lượng: 01</span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="salary_job">Mức lương:
+                                                <a href="#">10 TRIỆU - 15 TRIỆU</a>
+                                            </span>
+                                        </div>
                                     </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Dia_Diem.png">
-                                        </i>Địa chỉ:
-                                        <a href="#" class="job-company-add"> Đồng Nai
-                                        </a>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="location_job">Địa chỉ:
+                                                <a href="#">Đồng Nai</a>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="date_job">Hạn Nộp Hồ Sơ: 10/11/2017</span>
+                                        </div>
                                     </div>
-                                </div>
-
-                                <div class="detail-job-2 float-left">
-                                    <div class="text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Luong.png">
-                                        </i>Mức Lương:
-                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
-                                    </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Deadline.png">
-                                        </i>Hạn Nộp Hồ Sơ: 10/10/2020
-                                    </div>
-
                                 </div>
 
                             </div>
                         </div>
-
-                    </div>
-                    <div class="job-company-1">
-                        <div>
-                            <div class="float-left">
-                                <img class="img-content-middle" src="./public/image/bdqt-1-2.png">
-                            </div>
-
-                            <div class="job-detail-2 float-left">
-                                <p>Công ty TNHH MTV tuyển nhân viên</p>
-                                <div class="detail-job-2 float-left">
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/So_Luong.jpg">
-                                        </i>Số lượng: 10
-                                        <br>
+                        <div class="list-view">
+                            <a title class="logo" href="company.html">
+                                <img src="img/job-list-logo-01.jpg" alt="Company Logo 01">
+                            </a>
+                            <div class="list-info job-list-info">
+                                <h3 class="item-title">
+                                    <a title href="detail.html">Công ty Cổ phần Eurowindow tuyển Nhân viên kế hoạch
+                                    </a>
+                                </h3>
+                                <div class="job-icons">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="number_job">Số lượng: 01</span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="salary_job">Mức lương:
+                                                <a href="#">10 TRIỆU - 15 TRIỆU</a>
+                                            </span>
+                                        </div>
                                     </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Dia_Diem.png">
-                                        </i>Địa chỉ:
-                                        <a href="#" class="job-company-add"> Đồng Nai
-                                        </a>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="location_job">Địa chỉ:
+                                                <a href="#">Đồng Nai</a>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="date_job">Hạn Nộp Hồ Sơ: 10/11/2017</span>
+                                        </div>
                                     </div>
-                                </div>
-
-                                <div class="detail-job-2 float-left">
-                                    <div class="text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Luong.png">
-                                        </i>Mức Lương:
-                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
-                                    </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Deadline.png">
-                                        </i>Hạn Nộp Hồ Sơ: 10/10/2020
-                                    </div>
-
                                 </div>
 
                             </div>
                         </div>
-
-                    </div>
-                    <div class="job-company-1">
-                        <div>
-                            <div class="float-left">
-                                <img class="img-content-middle" src="./public/image/bdqt-1-2.png">
-                            </div>
-
-                            <div class="job-detail-2 float-left">
-                                <p>Công ty TNHH MTV tuyển nhân viên</p>
-                                <div class="detail-job-2 float-left">
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/So_Luong.jpg">
-                                        </i>Số lượng: 10
-                                        <br>
+                        <div class="list-view">
+                            <a title class="logo" href="company.html">
+                                <img src="img/job-list-logo-01.jpg" alt="Company Logo 01">
+                            </a>
+                            <div class="list-info job-list-info">
+                                <h3 class="item-title">
+                                    <a title href="detail.html">Công ty Cổ phần Eurowindow tuyển Nhân viên kế hoạch
+                                    </a>
+                                </h3>
+                                <div class="job-icons">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="number_job">Số lượng: 01</span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="salary_job">Mức lương:
+                                                <a href="#">10 TRIỆU - 15 TRIỆU</a>
+                                            </span>
+                                        </div>
                                     </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Dia_Diem.png">
-                                        </i>Địa chỉ:
-                                        <a href="#" class="job-company-add"> Đồng Nai
-                                        </a>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="location_job">Địa chỉ:
+                                                <a href="#">Đồng Nai</a>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="date_job">Hạn Nộp Hồ Sơ: 10/11/2017</span>
+                                        </div>
                                     </div>
-                                </div>
-
-                                <div class="detail-job-2 float-left">
-                                    <div class="text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Luong.png">
-                                        </i>Mức Lương:
-                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
-                                    </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Deadline.png">
-                                        </i>Hạn Nộp Hồ Sơ: 10/10/2020
-                                    </div>
-
                                 </div>
 
                             </div>
                         </div>
-
-                    </div>
-                    <div class="job-company-1">
-                        <div>
-                            <div class="float-left">
-                                <img class="img-content-middle" src="./public/image/bdqt-1-2.png">
-                            </div>
-
-                            <div class="job-detail-2 float-left">
-                                <p>Công ty TNHH MTV tuyển nhân viên</p>
-                                <div class="detail-job-2 float-left">
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/So_Luong.jpg">
-                                        </i>Số lượng: 10
-                                        <br>
+                        <div class="list-view">
+                            <a title class="logo" href="company.html">
+                                <img src="img/job-list-logo-01.jpg" alt="Company Logo 01">
+                            </a>
+                            <div class="list-info job-list-info">
+                                <h3 class="item-title">
+                                    <a title href="detail.html">Công ty Cổ phần Eurowindow tuyển Nhân viên kế hoạch
+                                    </a>
+                                </h3>
+                                <div class="job-icons">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="number_job">Số lượng: 01</span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="salary_job">Mức lương:
+                                                <a href="#">10 TRIỆU - 15 TRIỆU</a>
+                                            </span>
+                                        </div>
                                     </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Dia_Diem.png">
-                                        </i>Địa chỉ:
-                                        <a href="#" class="job-company-add"> Đồng Nai
-                                        </a>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="location_job">Địa chỉ:
+                                                <a href="#">Đồng Nai</a>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="date_job">Hạn Nộp Hồ Sơ: 10/11/2017</span>
+                                        </div>
                                     </div>
-                                </div>
-
-                                <div class="detail-job-2 float-left">
-                                    <div class="text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Luong.png">
-                                        </i>Mức Lương:
-                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
-                                    </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Deadline.png">
-                                        </i>Hạn Nộp Hồ Sơ: 10/10/2020
-                                    </div>
-
                                 </div>
 
                             </div>
                         </div>
-
-                    </div>
-                    <div class="job-company-1">
-                        <div>
-                            <div class="float-left">
-                                <img class="img-content-middle" src="./public/image/bdqt-1-2.png">
-                            </div>
-
-                            <div class="job-detail-2 float-left">
-                                <p>Công ty TNHH MTV tuyển nhân viên</p>
-                                <div class="detail-job-2 float-left">
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/So_Luong.jpg">
-                                        </i>Số lượng: 10
-                                        <br>
+                        <div class="list-view">
+                            <a title class="logo" href="company.html">
+                                <img src="img/job-list-logo-01.jpg" alt="Company Logo 01">
+                            </a>
+                            <div class="list-info job-list-info">
+                                <h3 class="item-title">
+                                    <a title href="detail.html">Công ty Cổ phần Eurowindow tuyển Nhân viên kế hoạch
+                                    </a>
+                                </h3>
+                                <div class="job-icons">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="number_job">Số lượng: 01</span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="salary_job">Mức lương:
+                                                <a href="#">10 TRIỆU - 15 TRIỆU</a>
+                                            </span>
+                                        </div>
                                     </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Dia_Diem.png">
-                                        </i>Địa chỉ:
-                                        <a class="job-company-add"> Đồng Nai
-                                        </a>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="location_job">Địa chỉ:
+                                                <a href="#">Đồng Nai</a>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="date_job">Hạn Nộp Hồ Sơ: 10/11/2017</span>
+                                        </div>
                                     </div>
-                                </div>
-
-                                <div class="detail-job-2 float-left">
-                                    <div class="text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Luong.png">
-                                        </i>Mức Lương:
-                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
-                                    </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Deadline.png">
-                                        </i>Hạn Nộp Hồ Sơ: 10/10/2020
-                                    </div>
-
                                 </div>
 
                             </div>
                         </div>
-
-                    </div>
-                    <div class="job-company-1">
-                        <div>
-                            <div class="float-left">
-                                <img class="img-content-middle" src="./public/image/bdqt-1-2.png">
-                            </div>
-
-                            <div class="job-detail-2 float-left">
-                                <p>Công ty TNHH MTV tuyển nhân viên</p>
-                                <div class="detail-job-2 float-left">
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/So_Luong.jpg">
-                                        </i>Số lượng: 10
-                                        <br>
+                        <div class="list-view">
+                            <a title class="logo" href="company.html">
+                                <img src="img/job-list-logo-01.jpg" alt="Company Logo 01">
+                            </a>
+                            <div class="list-info job-list-info">
+                                <h3 class="item-title">
+                                    <a title href="detail.html">Công ty Cổ phần Eurowindow tuyển Nhân viên kế hoạch
+                                    </a>
+                                </h3>
+                                <div class="job-icons">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="number_job">Số lượng: 01</span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="salary_job">Mức lương:
+                                                <a href="#">10 TRIỆU - 15 TRIỆU</a>
+                                            </span>
+                                        </div>
                                     </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Dia_Diem.png">
-                                        </i>Địa chỉ:
-                                        <a class="job-company-add"> Đồng Nai
-                                        </a>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="location_job">Địa chỉ:
+                                                <a href="#">Đồng Nai</a>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="date_job">Hạn Nộp Hồ Sơ: 10/11/2017</span>
+                                        </div>
                                     </div>
-                                </div>
-
-                                <div class="detail-job-2 float-left">
-                                    <div class="text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Luong.png">
-                                        </i>Mức Lương:
-                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
-                                    </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Deadline.png">
-                                        </i>Hạn Nộp Hồ Sơ: 10/10/2020
-                                    </div>
-
                                 </div>
 
                             </div>
                         </div>
-
-                    </div>
-                    <div class="job-company-1">
-                        <div>
-                            <div class="float-left">
-                                <img class="img-content-middle" src="./public/image/bdqt-1-2.png">
-                            </div>
-
-                            <div class="job-detail-2 float-left">
-                                <p>Công ty TNHH MTV tuyển nhân viên</p>
-                                <div class="detail-job-2 float-left">
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/So_Luong.jpg">
-                                        </i>Số lượng: 10
-                                        <br>
+                        <div class="list-view">
+                            <a title class="logo" href="company.html">
+                                <img src="img/job-list-logo-01.jpg" alt="Company Logo 01">
+                            </a>
+                            <div class="list-info job-list-info">
+                                <h3 class="item-title">
+                                    <a title href="detail.html">Công ty Cổ phần Eurowindow tuyển Nhân viên kế hoạch
+                                    </a>
+                                </h3>
+                                <div class="job-icons">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="number_job">Số lượng: 01</span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="salary_job">Mức lương:
+                                                <a href="#">10 TRIỆU - 15 TRIỆU</a>
+                                            </span>
+                                        </div>
                                     </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Dia_Diem.png">
-                                        </i>Địa chỉ:
-                                        <a class="job-company-add"> Đồng Nai
-                                        </a>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="location_job">Địa chỉ:
+                                                <a href="#">Đồng Nai</a>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="date_job">Hạn Nộp Hồ Sơ: 10/11/2017</span>
+                                        </div>
                                     </div>
-                                </div>
-
-                                <div class="detail-job-2 float-left">
-                                    <div class="text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Luong.png">
-                                        </i>Mức Lương:
-                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
-                                    </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Deadline.png">
-                                        </i>Hạn Nộp Hồ Sơ: 10/10/2020
-                                    </div>
-
                                 </div>
 
                             </div>
                         </div>
-
-                    </div>
-                    <div class="job-company-1">
-                        <div>
-                            <div class="float-left">
-                                <img class="img-content-middle" src="./public/image/bdqt-1-2.png">
-                            </div>
-
-                            <div class="job-detail-2 float-left">
-                                <p>Công ty TNHH MTV tuyển nhân viên</p>
-                                <div class="detail-job-2 float-left">
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/So_Luong.jpg">
-                                        </i>Số lượng: 10
-                                        <br>
+                        <div class="list-view">
+                            <a title class="logo" href="company.html">
+                                <img src="img/job-list-logo-01.jpg" alt="Company Logo 01">
+                            </a>
+                            <div class="list-info job-list-info">
+                                <h3 class="item-title">
+                                    <a title href="detail.html">Công ty Cổ phần Eurowindow tuyển Nhân viên kế hoạch
+                                    </a>
+                                </h3>
+                                <div class="job-icons">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="number_job">Số lượng: 01</span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="salary_job">Mức lương:
+                                                <a href="#">10 TRIỆU - 15 TRIỆU</a>
+                                            </span>
+                                        </div>
                                     </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Dia_Diem.png">
-                                        </i>Địa chỉ:
-                                        <a class="job-company-add"> Đồng Nai
-                                        </a>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="location_job">Địa chỉ:
+                                                <a href="#">Đồng Nai</a>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="date_job">Hạn Nộp Hồ Sơ: 10/11/2017</span>
+                                        </div>
                                     </div>
-                                </div>
-
-                                <div class="detail-job-2 float-left">
-                                    <div class="text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Luong.png">
-                                        </i>Mức Lương:
-                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
-                                    </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Deadline.png">
-                                        </i>Hạn Nộp Hồ Sơ: 10/10/2020
-                                    </div>
-
                                 </div>
 
                             </div>
                         </div>
-
-                    </div>
-                    <div class="job-company-1">
-                        <div>
-                            <div class="float-left">
-                                <img class="img-content-middle" src="./public/image/bdqt-1-2.png">
-                            </div>
-
-                            <div class="job-detail-2 float-left">
-                                <p>Công ty TNHH MTV tuyển nhân viên</p>
-                                <div class="detail-job-2 float-left">
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/So_Luong.jpg">
-                                        </i>Số lượng: 10
-                                        <br>
+                        <div class="list-view">
+                            <a title class="logo" href="company.html">
+                                <img src="img/job-list-logo-01.jpg" alt="Company Logo 01">
+                            </a>
+                            <div class="list-info job-list-info">
+                                <h3 class="item-title">
+                                    <a title href="detail.html">Công ty Cổ phần Eurowindow tuyển Nhân viên kế hoạch
+                                    </a>
+                                </h3>
+                                <div class="job-icons">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="number_job">Số lượng: 01</span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="salary_job">Mức lương:
+                                                <a href="#">10 TRIỆU - 15 TRIỆU</a>
+                                            </span>
+                                        </div>
                                     </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Dia_Diem.png">
-                                        </i>Địa chỉ:
-                                        <a class="job-company-add"> Đồng Nai
-                                        </a>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="location_job">Địa chỉ:
+                                                <a href="#">Đồng Nai</a>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="date_job">Hạn Nộp Hồ Sơ: 10/11/2017</span>
+                                        </div>
                                     </div>
-                                </div>
-
-                                <div class="detail-job-2 float-left">
-                                    <div class="text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Luong.png">
-                                        </i>Mức Lương:
-                                        <span class="job-company-saraly">10tr - 15tr VNĐ</span>
-                                    </div>
-                                    <div class="full-width text-line-height text-16">
-                                        <i>
-                                            <img class="icon-job" src="./public/image/Deadline.png">
-                                        </i>Hạn Nộp Hồ Sơ: 10/10/2020
-                                    </div>
-
                                 </div>
 
                             </div>
                         </div>
-
                     </div>
-
-
-                    <div class="line-border"></div>
 
                     <ul class="pagination">
                         <li>
@@ -699,23 +598,35 @@
 
 
                 <div class="col-md-3 col-sm-12">
-                    <div class="panel-company">
-                        <div class="panel-company-heading">NHÀ TUYỂN DỤNG HÀNG ĐẦU</div>
-                        <div class="panel-company-body">
-                            <img src="./public/image/Logo_Footer_190x130.png" />
-                            <img src="./public/image/Logo_Footer_190x130.png" />
-                            <img src="./public/image/Logo_Footer_190x130.png" />
-                            <img src="./public/image/Logo_Footer_190x130.png" />
-                            <img src="./public/image/Logo_Footer_190x130.png" />
-                            <img src="./public/image/Logo_Footer_190x130.png" />
-                            <img src="./public/image/Logo_Footer_190x130.png" />
-                            <img src="./public/image/Logo_Footer_190x130.png" />
-                            <img src="./public/image/Logo_Footer_190x130.png" />
-                            <img src="./public/image/Logo_Footer_190x130.png" />
-                            <img src="./public/image/Logo_Footer_190x130.png" />
-                            <img src="./public/image/Logo_Footer_190x130.png" />
-
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- RECENT JOB ALERTS STARTS -->
+                            <div class="recent-alerts">
+                                <h4>Nhà Tuyển Dụng Hàng Đầu</h4>
+                                <div id="adc_TOP_COMPANIES" class="animated fadeIn">
+                                    <a class="cusLogo" target="_blank" href="#">
+                                        <img class="salesLogoImage img-responsive" src="/img/nhatuyendung.png">
+                                    </a>
+                                    <a class="cusLogo" target="_blank" href="#">
+                                        <img class="salesLogoImage img-responsive" src="/img/nhatuyendung.png">
+                                    </a>
+                                    <a class="cusLogo" target="_blank" href="#">
+                                        <img class="salesLogoImage img-responsive" src="/img/nhatuyendung.png">
+                                    </a>
+                                    <a class="cusLogo" target="_blank" href="#">
+                                        <img class="salesLogoImage img-responsive" src="/img/nhatuyendung.png">
+                                    </a>
+                                    <a class="cusLogo" target="_blank" href="#">
+                                        <img class="salesLogoImage img-responsive" src="/img/nhatuyendung.png">
+                                    </a>
+                                    <a class="cusLogo" target="_blank" href="#">
+                                        <img class="salesLogoImage img-responsive" src="/img/nhatuyendung.png">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- RECENT JOB ALERTS ENDS -->
                         </div>
+
                     </div>
 
                     <div class="banner-job-company">
@@ -731,284 +642,232 @@
         <div class="row">
             <div class="content-footer col-md-12">
                 <div class="full-width">
-                    <p id="mo-ta-cv">
+                    <h2 class="mo-ta-cv">
                         VIỆC LÀM LIÊN QUAN
-                    </p>
+                    </h2>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="job_relation">
+                        <div class="job-list">
+                            <div class="list-view">
+                                <a title class="logo" href="company.html">
+                                    <img src="img/job-list-logo-01.jpg" alt="Company Logo 01">
+                                </a>
+                                <div class="list-info job-list-info">
+                                    <h3 class="item-title">
+                                        <a title href="detail.html">Công ty Cổ phần Eurowindow tuyển Nhân viên kế hoạch
+                                        </a>
+                                    </h3>
+                                    <div class="job-icons">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                                <span class="number_job">Số lượng: 01</span>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-6">
+                                                <span class="salary_job">Mức lương:
+                                                    <a href="#">10 TRIỆU - 15 TRIỆU</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                                <span class="location_job">Địa chỉ:
+                                                    <a href="#">Đồng Nai</a>
+                                                </span>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-6">
+                                                <span class="date_job">Hạn Nộp Hồ Sơ: 10/11/2017</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="list-view">
+                                <a title class="logo" href="company.html">
+                                    <img src="img/job-list-logo-01.jpg" alt="Company Logo 01">
+                                </a>
+                                <div class="list-info job-list-info">
+                                    <h3 class="item-title">
+                                        <a title href="detail.html">Công ty Cổ phần Eurowindow tuyển Nhân viên kế hoạch
+                                        </a>
+                                    </h3>
+                                    <div class="job-icons">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                                <span class="number_job">Số lượng: 01</span>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-6">
+                                                <span class="salary_job">Mức lương:
+                                                    <a href="#">10 TRIỆU - 15 TRIỆU</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                                <span class="location_job">Địa chỉ:
+                                                    <a href="#">Đồng Nai</a>
+                                                </span>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-6">
+                                                <span class="date_job">Hạn Nộp Hồ Sơ: 10/11/2017</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="list-view">
+                                <a title class="logo" href="company.html">
+                                    <img src="img/job-list-logo-01.jpg" alt="Company Logo 01">
+                                </a>
+                                <div class="list-info job-list-info">
+                                    <h3 class="item-title">
+                                        <a title href="detail.html">Công ty Cổ phần Eurowindow tuyển Nhân viên kế hoạch
+                                        </a>
+                                    </h3>
+                                    <div class="job-icons">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                                <span class="number_job">Số lượng: 01</span>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-6">
+                                                <span class="salary_job">Mức lương:
+                                                    <a href="#">10 TRIỆU - 15 TRIỆU</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                                <span class="location_job">Địa chỉ:
+                                                    <a href="#">Đồng Nai</a>
+                                                </span>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-6">
+                                                <span class="date_job">Hạn Nộp Hồ Sơ: 10/11/2017</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
                 </div>
 
                 <div class="col-md-6">
 
-                    <div class="job-detail-3">
-
-
-                        <div class=" float-left">
-                            <img class="img-content-footer" src="./public/image/bdqt-1-2.png">
-                        </div>
-
-                        <div class="job-detail-2 float-left">
-
-                            <p>Công ty TNHH MTV tuyển nhân viên</p>
-                            <div class="detail-job-2 float-left">
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/So_Luong.jpg">
-                                    </i>Số lượng: 10
-                                    <br>
-                                </div>
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Dia_Diem.png">
-                                    </i>Địa chỉ:
-                                    <a href="#" class="job-company-add"> Đồng Nai
+                    <div class="job-list">
+                        <div class="list-view">
+                            <a title class="logo" href="company.html">
+                                <img src="img/job-list-logo-01.jpg" alt="Company Logo 01">
+                            </a>
+                            <div class="list-info job-list-info">
+                                <h3 class="item-title">
+                                    <a title href="detail.html">Công ty Cổ phần Eurowindow tuyển Nhân viên kế hoạch
                                     </a>
+                                </h3>
+                                <div class="job-icons">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="number_job">Số lượng: 01</span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="salary_job">Mức lương:
+                                                <a href="#">10 TRIỆU - 15 TRIỆU</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="location_job">Địa chỉ:
+                                                <a href="#">Đồng Nai</a>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="date_job">Hạn Nộp Hồ Sơ: 10/11/2017</span>
+                                        </div>
+                                    </div>
                                 </div>
+
                             </div>
-
-                            <div class="detail-job-2 float-left">
-                                <div class="text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Luong.png">
-                                    </i>Mức Lương:
-                                    <span class="job-company-saraly">10tr - 15tr VNĐ</span>
-                                </div>
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Deadline.png">
-                                    </i>Hạn Nộp Hồ Sơ: 10/10/2020
-                                </div>
-
-                            </div>
-
                         </div>
-
-                    </div>
-                    <div class="job-detail-3">
-
-
-                        <div class=" float-left">
-                            <img class="img-content-footer" src="./public/image/bdqt-1-2.png">
-                        </div>
-
-                        <div class="job-detail-2 float-left">
-
-                            <p>Công ty TNHH MTV tuyển nhân viên</p>
-                            <div class="detail-job-2 float-left">
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/So_Luong.jpg">
-                                    </i>Số lượng: 10
-                                    <br>
-                                </div>
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Dia_Diem.png">
-                                    </i>Địa chỉ:
-                                    <a href="#" class="job-company-add"> Đồng Nai
+                        <div class="list-view">
+                            <a title class="logo" href="company.html">
+                                <img src="img/job-list-logo-01.jpg" alt="Company Logo 01">
+                            </a>
+                            <div class="list-info job-list-info">
+                                <h3 class="item-title">
+                                    <a title href="detail.html">Công ty Cổ phần Eurowindow tuyển Nhân viên kế hoạch
                                     </a>
+                                </h3>
+                                <div class="job-icons">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="number_job">Số lượng: 01</span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="salary_job">Mức lương:
+                                                <a href="#">10 TRIỆU - 15 TRIỆU</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="location_job">Địa chỉ:
+                                                <a href="#">Đồng Nai</a>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="date_job">Hạn Nộp Hồ Sơ: 10/11/2017</span>
+                                        </div>
+                                    </div>
                                 </div>
+
                             </div>
-
-                            <div class="detail-job-2 float-left">
-                                <div class="text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Luong.png">
-                                    </i>Mức Lương:
-                                    <span class="job-company-saraly">10tr - 15tr VNĐ</span>
-                                </div>
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Deadline.png">
-                                    </i>Hạn Nộp Hồ Sơ: 10/10/2020
-                                </div>
-
-                            </div>
-
                         </div>
-
-                    </div>
-                    <div class="job-detail-3">
-
-
-                        <div class=" float-left">
-                            <img class="img-content-footer" src="./public/image/bdqt-1-2.png">
-                        </div>
-
-                        <div class="job-detail-2 float-left">
-
-                            <p>Công ty TNHH MTV tuyển nhân viên</p>
-                            <div class="detail-job-2 float-left">
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/So_Luong.jpg">
-                                    </i>Số lượng: 10
-                                    <br>
-                                </div>
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Dia_Diem.png">
-                                    </i>Địa chỉ:
-                                    <a class="job-company-add"> Đồng Nai
+                        <div class="list-view">
+                            <a title class="logo" href="company.html">
+                                <img src="img/job-list-logo-01.jpg" alt="Company Logo 01">
+                            </a>
+                            <div class="list-info job-list-info">
+                                <h3 class="item-title">
+                                    <a title href="detail.html">Công ty Cổ phần Eurowindow tuyển Nhân viên kế hoạch
                                     </a>
+                                </h3>
+                                <div class="job-icons">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="number_job">Số lượng: 01</span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="salary_job">Mức lương:
+                                                <a href="#">10 TRIỆU - 15 TRIỆU</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <span class="location_job">Địa chỉ:
+                                                <a href="#">Đồng Nai</a>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-6">
+                                            <span class="date_job">Hạn Nộp Hồ Sơ: 10/11/2017</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-
-                            <div class="detail-job-2 float-left">
-                                <div class="text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Luong.png">
-                                    </i>Mức Lương:
-                                    <span class="job-company-saraly">10tr - 15tr VNĐ</span>
-                                </div>
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Deadline.png">
-                                    </i>Hạn Nộp Hồ Sơ: 10/10/2020
-                                </div>
-
-                            </div>
-
                         </div>
-
                     </div>
-
-
                 </div>
-
-
-                <div class="col-md-6">
-                    <div class="job-detail-3">
-
-
-                        <div class=" float-left">
-                            <img class="img-content-footer" src="./public/image/bdqt-1-2.png">
-                        </div>
-
-                        <div class="job-detail-2 float-left">
-
-                            <p>Công ty TNHH MTV tuyển nhân viên</p>
-                            <div class="detail-job-2 float-left">
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/So_Luong.jpg">
-                                    </i>Số lượng: 10
-                                    <br>
-                                </div>
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Dia_Diem.png">
-                                    </i>Địa chỉ:
-                                    <a class="job-company-add"> Đồng Nai
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="detail-job-2 float-left">
-                                <div class="text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Luong.png">
-                                    </i>Mức Lương:
-                                    <span class="job-company-saraly">10tr - 15tr VNĐ</span>
-                                </div>
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Deadline.png">
-                                    </i>Hạn Nộp Hồ Sơ: 10/10/2020
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="job-detail-3">
-                     <div class=" float-left">
-                            <img class="img-content-footer" src="./public/image/bdqt-1-2.png">
-                        </div>
-
-                        <div class="job-detail-2 float-left">
-
-                            <p>Công ty TNHH MTV tuyển nhân viên</p>
-                            <div class="detail-job-2 float-left">
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/So_Luong.jpg">
-                                    </i>Số lượng: 10
-                                    <br>
-                                </div>
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Dia_Diem.png">
-                                    </i>Địa chỉ:
-                                    <a class="job-company-add"> Đồng Nai
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="detail-job-2 float-left">
-                                <div class="text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Luong.png">
-                                    </i>Mức Lương:
-                                    <span class="job-company-saraly">10tr - 15tr VNĐ</span>
-                                </div>
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Deadline.png">
-                                    </i>Hạn Nộp Hồ Sơ: 10/10/2020
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="job-detail-3">
-
-
-                        <div class=" float-left">
-                            <img class="img-content-footer" src="./public/image/bdqt-1-2.png">
-                        </div>
-
-                        <div class="job-detail-2 float-left">
-
-                            <p>Công ty TNHH MTV tuyển nhân viên</p>
-                            <div class="detail-job-2 float-left">
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/So_Luong.jpg">
-                                    </i>Số lượng: 10
-                                    <br>
-                                </div>
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Dia_Diem.png">
-                                    </i>Địa chỉ:
-                                    <a class="job-company-add"> Đồng Nai
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="detail-job-2 float-left">
-                                <div class="text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Luong.png">
-                                    </i>Mức Lương:
-                                    <span class="job-company-saraly">10tr - 15tr VNĐ</span>
-                                </div>
-                                <div class="full-width text-line-height text-14">
-                                    <i>
-                                        <img class="icon-job" src="./public/image/Deadline.png">
-                                    </i>Hạn Nộp Hồ Sơ: 10/10/2020
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
             </div>
         </div>
 
@@ -1062,14 +921,11 @@
                 <div class="col-lg-3 col-md-3">
                     <h5>Ứng Dụng Việc Làm Nam Bộ</h5>
                     <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <img src="./public/image/CHplay.png" alt="">
+                        <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6">
+                            <img class="img-responsive img_app" src="/img/CHplay.png" alt="">
                         </div>
-                    </div>
-                    <hr class="dotted">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <img src="./public/image/Itunes.png" alt="">
+                        <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6">
+                            <img class="img-responsive img_app" src="/img/Itunes.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -1097,15 +953,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Bootstrap JS -->
-    <script src="./public/js/vendors/bootstrap.min.js"></script>
+    <script src="./js/vendors/bootstrap.min.js"></script>
     <!-- Slick slider plugin JS -->
-    <script src="./public/js/vendors/slick.min.js?v=1.1"></script>
+    <script src="./js/vendors/slick.min.js?v=1.1"></script>
     <!-- Countdown plugin used on coming soon page -->
-    <script src="./public/js/vendors/jquery.countdown.min.js"></script>
+    <script src="./js/vendors/jquery.countdown.min.js"></script>
     <!-- Summernote Text editor plugin used on create resume page -->
-    <script src="./public/js/vendors/summernote.min.js"></script>
+    <script src="./js/vendors/summernote.min.js"></script>
     <!-- Custom Javascript code as per requirement -->
-    <script src="./public/js/custom.js"></script>
+    <script src="./js/custom.js"></script>
 </body>
 
 </html>

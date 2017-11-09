@@ -1,0 +1,250 @@
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("../fonts/HelveticaNeue.otf") format("opentype");
+}
+.title-employer {
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  color: #0e9bd6;
+  width: 100%;
+}
+.container-employer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 30px 30px 30px 30px;
+  width: 70%;
+}
+.line-color {
+  height: 1px;
+  background-color: #48c4ed;
+  width: 100%;
+  margin-top: 15px;
+}
+.title-content {
+  display: flex;
+  height: 27px;
+}
+.info-job {
+  font-size: 22px;
+  font-family: HelveticaNeue;
+  font-weight: 500;
+  line-height: 0.95;
+  color: #101010;
+}
+.title-infor {
+  height: 34px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: right;
+  color: #101010;
+}
+.input-text {
+  width: 100%;
+  height: 34px;
+  opacity: 0.8;
+  border: solid 1px #acacac;
+}
+.row-line {
+  margin-top: 38px;
+}
+.custom-padding-left {
+  padding-left: 0px;
+}
+.custom-padding-right {
+  padding-right: 0px;
+}
+@media (max-width: 993px) {
+  .padding-0 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .padding-top-e {
+    padding-top: 38px;
+  }
+  .title-infor {
+    text-align: left;
+  }
+  .title-upfile {
+    height: 60px;
+  }
+  .line-color {
+    width: 40%;
+  }
+  .title-content {
+    height: 56px;
+  }
+  .block-e-2 {
+    margin-top: 20px;
+  }
+  .select-option-2 {
+    float: none !important;
+    width: 100% !important;
+  }
+}
+.select-option {
+  width: 100%;
+  height: 34px;
+  opacity: 0.8;
+  background-color: #ffffff;
+  border: solid 1px #acacac;
+}
+.input-text-area-1 {
+  width: 100%;
+  height: 200px;
+  opacity: 0.8;
+  border: solid 1px #acacac;
+}
+.tag-hr {
+  opacity: 0.2;
+  background-color: #000000;
+  height: 1px;
+  margin-top: 20px;
+}
+.note-infor {
+  font-family: HelveticaNeue;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.62;
+  color: #ff2222;
+  margin-top: 0px;
+  padding-right: 9px;
+}
+.btn-submit-em {
+  width: 361px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  background-color: #0e9bd6;
+  font-weight: 600;
+  border: none;
+}
+.form-btn-e {
+  margin: 38px 0 60px 0;
+}
+@media (max-width: 500px) {
+  .btn-submit-em {
+    width: 100%;
+  }
+  .line-color {
+    width: 0;
+  }
+  .container-employer {
+    width: 100%;
+  }
+}
+.employer-home {
+  margin-top: 20px;
+  width: 75%;
+  margin-bottom: 20px;
+}
+.alert-employer {
+  font-family: HelveticaNeue;
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: 1px solid #0e9bd6;
+}
+.alert-employer h4 {
+  font-family: HelveticaNeue;
+  margin: 0;
+  padding: 5px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+  background: #0e9bd6;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: 500;
+}
+.alert-employer ul {
+  font-family: HelveticaNeue;
+  margin: 0;
+  padding: 20px 20px;
+  list-style: none;
+  overflow: hidden;
+}
+.alert-employer ul li {
+  font-family: HelveticaNeue;
+  line-height: 27px;
+  display: block;
+  position: relative;
+  font-size: 20px;
+  font-weight: normal;
+  color: #000000;
+}
+.alert-employer ul li span {
+  font-family: HelveticaNeue;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #ff0000;
+}
+.btn-e-home {
+  height: 40px;
+  margin-top: 23px;
+  border-radius: 10px;
+  background-color: #fe8740;
+  width: 80%;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+}
+.dot-e {
+  margin-right: 20px;
+  font-size: 10px;
+  text-align: center;
+  color: #0e9bd6;
+}
+.select-option-2 {
+  float: left;
+  width: 50%;
+}
+.info-job span {
+  font-size: 26px;
+  font-family: HelveticaNeue;
+  font-weight: 500;
+  color: #fe8740;
+}
+.title-job-search h3 {
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #0e9bd6;
+}
+.font-text-search h3 {
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  line-height: 24px;
+  color: #101010;
+  margin: 0;
+}
+.font-text-search h3 i {
+  width: 12px;
+  margin-right: 8px;
+  text-align: center;
+}
+.font-text-search h3 span {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 15px;
+  color: #0e9bd6;
+}
+.job-list-search {
+  border-bottom: dashed 2px #48c4ed;
+  padding-bottom: 24px;
+}
+.float-right-search{
+  float: right;
+}

@@ -1,0 +1,89 @@
+section.category {
+    height: 300px;
+    padding: 20vh 0 0 0;
+    background: url(/img/Banner.jpg) center center no-repeat;
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+section.category h2 {
+    margin: 0 0 30px;
+}
+
+.form_search_cat {
+    text-align: left;
+}
+
+section.inner-banner .form-inline .form-control,
+section.inner-banner .form-inline .form-control {
+    height: 40px;
+}
+
+section.inner-banner .form-inline .input-group input[type="submit"] {
+    height: 40px;
+    -webkit-border-radius: 5px;
+}
+
+.inner-banner .keyword_carrer {
+    background: url(/img/Search.png) #fff no-repeat !important;
+    background-size: 18px 18px !important;
+    background-position: 12px 50% !important;
+    padding-left: 40px;
+}
+
+.inner-banner .province_search {
+    background: url(/img/Local.png) #fff no-repeat;
+    background-size: 13px 20px !important;
+    background-position: 12px 50%;
+    padding-left: 40px;
+}
+
+.inner-banner .salary_search {
+    background: url(/img/Money.png) #fff no-repeat;
+    background-size: 20px 18px !important;
+    background-position: 12px 50%;
+    padding-left: 40px;
+}
+
+.search-result .form-control:not(.note-image-input) {
+    border: 1px solid #0e9bd6;
+    width: 50%;
+    padding: 0;
+    height:25px;
+    font-size: 14px;
+    color: #0e9bd6;
+}
+
+.search-result h2 {
+    color: #0e9bd6;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin: 0 0 25px;
+}
+
+.search-result span b {
+    color: #0e9bd6;
+    font-size: 20px;
+}
+section.inner-banner .form-inline{
+    text-align: center;
+}
+.search-result .filter-list a{
+    color: #0e9bd6;
+}
+.search-result .count_number{
+    font-size: 14px;
+    color: #b7b7b7;
+}
+.search-result .field_search{
+    color: #101010;
+    font-size: 16px;
+}
+.search-result .number_job_conform{
+    font-size: 16px;
+}
+.category span{
+    font-size: 20px;
+}
