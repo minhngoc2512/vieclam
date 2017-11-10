@@ -558,7 +558,7 @@ section.inner-banner .form-inline .form-group.find {
 }
 .form-control:not(.note-image-input) {
   margin-right: 7px;
-  border: none;
+  /* border: none; */
   width: calc(100% - 7px);
   border-radius: 0;
   -moz-border-radius: 0;
